@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Liliana Torres · Psicóloga clínica en Lima</title>
+<meta name="description" content="Psicóloga clínica en Lima. Acompañamiento psicológico desde una mirada sistémica, consciente y compasiva. Con profundidad, pero también con humanidad.">
+<meta name="theme-color" content="#EFE8DA">
+<!-- Vista previa al compartir (WhatsApp, Facebook, LinkedIn). og:image y og:url se agregan cuando haya dominio y foto -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Liliana Torres">
+<meta property="og:locale" content="es_PE">
+<meta property="og:title" content="Liliana Torres · Psicóloga clínica en Lima">
+<meta property="og:description" content="Acompañamiento psicológico desde una mirada sistémica, consciente y compasiva. Con profundidad, pero también con humanidad.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23476859'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-style='italic' fill='%23EFE8DA' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<!-- Tipografías: Nunito Sans para toda la web (suave, legible) y Newsreader en cursiva liviana solo para citas -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300..700;1,6..12,300..600&family=Newsreader:ital,opsz,wght@1,6..72,300..400&display=swap">
+<style>
+  :root{
+    /* Colores: beige cálido, salvia y terracota */
+    --paper:#EFE8DA; --paper-2:#E6DCCA; --mist:#F8F3E9;
+    --ink:#2B2620; --ink-soft:#5B5346; --ink-faint:#948A79;
+    --sage:#6E9683; --sage-deep:#476859; --sage-tint:rgba(110,150,131,.16);
+    --clay:#C0845A; --clay-deep:#9C5F35; --clay-tint:rgba(192,132,90,.20);
+    --line:rgba(43,38,32,.13); --line-soft:rgba(43,38,32,.06);
+    --shadow:0 24px 60px -30px rgba(43,38,32,.30); --shadow-sm:0 10px 30px -18px rgba(43,38,32,.4);
+    --accent:var(--sage); --accent-deep:var(--sage-deep); --accent-tint:var(--sage-tint);
+    /* Verde de resaltado (el de la paleta Bosque) para la frase clave de algunos títulos */
+    --verde:#5E9078; --verde-tint:rgba(94,144,120,.26);
+    --font-sans:"Nunito Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    --font-serif:"Newsreader","Iowan Old Style",Georgia,"Times New Roman",serif;
+    --wrap:1200px; --r:22px; --ease:cubic-bezier(.22,.61,.36,1);
+    color-scheme:light;
+  }
+  /* DARK */
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme:dark;
+      --paper:#1B1712; --paper-2:#241E16; --mist:#2A2219;
+      --ink:#EFE8DB; --ink-soft:#B7AC9A; --ink-faint:#8A8070;
+      --sage:#8FBCA4; --sage-deep:#A9CEBA; --sage-tint:rgba(143,188,164,.16);
+      --clay:#DCAB7C; --clay-deep:#EAC29A; --clay-tint:rgba(220,171,124,.20);
+      --line:rgba(239,232,219,.14); --line-soft:rgba(239,232,219,.07);
+      --verde:#8FBCA4; --verde-tint:rgba(143,188,164,.32);
+      --shadow:0 24px 60px -30px rgba(0,0,0,.6); --shadow-sm:0 10px 30px -18px rgba(0,0,0,.55);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme:dark;
+    --paper:#1B1712; --paper-2:#241E16; --mist:#2A2219;
+    --ink:#EFE8DB; --ink-soft:#B7AC9A; --ink-faint:#8A8070;
+    --sage:#8FBCA4; --sage-deep:#A9CEBA; --sage-tint:rgba(143,188,164,.16);
+    --clay:#DCAB7C; --clay-deep:#EAC29A; --clay-tint:rgba(220,171,124,.20);
+    --line:rgba(239,232,219,.14); --line-soft:rgba(239,232,219,.07);
+    --verde:#8FBCA4; --verde-tint:rgba(143,188,164,.32);
+    --shadow:0 24px 60px -30px rgba(0,0,0,.6); --shadow-sm:0 10px 30px -18px rgba(0,0,0,.55);
+    --accent:var(--sage); --accent-deep:var(--sage-deep); --accent-tint:var(--sage-tint);
+  }
+
+  *{ box-sizing:border-box; }
+  img{ max-width:100%; }
+  html{ scroll-behavior:smooth; }
+  /* Toda la web en Nunito Sans a 17px; la serif cursiva queda solo para citas */
+  body{ margin:0; background:var(--paper); color:var(--ink); font-family:var(--font-sans); font-size:17px; font-weight:400; line-height:1.7; letter-spacing:0; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden; transition:background .5s var(--ease), color .5s var(--ease); }
+
+  .nav, .nav-panel, .btn, .link, .eyebrow, .ci-scroll, .micro, .pillar .k, .post .ptag, .post .pmeta,
+  .foot h5, .foot .fl, .foot .legal, .voz-firma, .cbox h4, .cycle .nlabel{ font-family:var(--font-sans); }
+
+  .atmosphere{ position:fixed; inset:0; z-index:0; pointer-events:none; transition:opacity .6s;
+    background:
+      radial-gradient(50% 40% at 10% -5%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 70%),
+      radial-gradient(46% 44% at 108% 18%, color-mix(in oklab, var(--sage) 14%, transparent), transparent 70%),
+      radial-gradient(60% 55% at 55% 112%, color-mix(in oklab, var(--clay) 14%, transparent), transparent 72%);
+    filter:blur(12px); }
+  .grain{ position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.4; background-image:radial-gradient(var(--line-soft) 1px, transparent 1px); background-size:30px 30px; }
+
+  #app{ position:relative; z-index:1; }
+  .wrap{ max-width:var(--wrap); margin:0 auto; padding-left:32px; padding-right:32px; }
+  .narrow{ max-width:760px; }
+  @media (max-width:600px){ .wrap{ padding-left:22px; padding-right:22px; } }
+
+  /* NAV */
+  .nav{ position:fixed; top:18px; left:50%; transform:translateX(-50%); z-index:60; display:flex; align-items:center; gap:3px; padding:7px; border-radius:999px; background:color-mix(in oklab, var(--mist) 74%, transparent); -webkit-backdrop-filter:blur(18px) saturate(1.3); backdrop-filter:blur(18px) saturate(1.3); border:1px solid var(--line); box-shadow:var(--shadow); max-width:calc(100vw - 20px); }
+  .nav a{ color:var(--ink-soft); text-decoration:none; font-size:13.5px; padding:9px 14px; border-radius:999px; white-space:nowrap; cursor:pointer; transition:color .3s var(--ease), background .3s var(--ease); }
+  .nav a:hover{ color:var(--ink); background:var(--accent-tint); }
+  .nav a.active{ color:var(--ink); background:var(--accent-tint); }
+  .nav .brand{ color:var(--ink); font-weight:600; letter-spacing:.01em; padding:9px 6px 9px 16px; font-size:14px; }
+  .nav .brand b{ color:var(--accent-deep); }
+  .nav .cta{ background:var(--ink); color:var(--paper); font-weight:500; }
+  .nav .cta:hover{ background:var(--accent-deep); color:#fff; }
+  .icon-btn{ border:1px solid var(--line); background:transparent; cursor:pointer; width:36px; height:36px; border-radius:999px; color:var(--ink-soft); font-size:14px; display:grid; place-items:center; transition:color .3s,border-color .3s; margin-left:2px; }
+  .icon-btn:hover{ color:var(--ink); border-color:var(--accent); }
+  @media (max-width:1080px){ .nav a.opt{ display:none; } }
+  @media (max-width:660px){ .nav a.hide-sm{ display:none; } }
+
+  /* ---- Menú para pantallas chicas: botón Menú + panel con todas las páginas ---- */
+  .nav-toggle{ display:none; align-items:center; gap:8px; height:36px; padding:0 14px; margin-left:2px; border:1px solid var(--line); border-radius:999px; background:transparent; color:var(--ink); font:inherit; font-size:13.5px; font-weight:500; cursor:pointer; transition:background .3s var(--ease), border-color .3s var(--ease); }
+  .nav-toggle:hover, .nav-toggle[aria-expanded="true"]{ border-color:var(--accent); background:var(--accent-tint); }
+  .nav-toggle .bars{ position:relative; width:14px; height:10px; border-top:1.5px solid currentColor; border-bottom:1.5px solid currentColor; }
+  .nav-toggle .bars::after{ content:""; position:absolute; left:0; right:0; top:50%; border-top:1.5px solid currentColor; transform:translateY(-50%); }
+  .nav-panel{ position:fixed; z-index:59; top:calc(max(18px, env(safe-area-inset-top)) + 62px); left:10px; right:10px; max-width:420px; margin:0 auto; display:flex; flex-direction:column; gap:2px; padding:10px; border-radius:22px; border:1px solid var(--line); background:var(--mist); box-shadow:var(--shadow); transition:opacity .25s var(--ease), transform .25s var(--ease), visibility 0s; }
+  .nav-panel[hidden]{ display:flex; opacity:0; transform:translateY(-8px); visibility:hidden; pointer-events:none; transition:opacity .2s var(--ease), transform .2s var(--ease), visibility 0s linear .2s; }
+  .nav-panel a{ display:flex; align-items:center; min-height:48px; padding:0 16px; border-radius:14px; color:var(--ink); text-decoration:none; font-size:16px; cursor:pointer; }
+  .nav-panel a:hover, .nav-panel a.active{ background:var(--accent-tint); }
+  .nav-panel a.cta{ justify-content:center; margin-top:6px; background:var(--ink); color:var(--paper); font-weight:500; }
+  @media (max-width:1080px){ .nav-toggle{ display:inline-flex; } }
+  @media (min-width:1081px){ .nav-panel{ display:none !important; } }
+
+  /* PAGES */
+  .page{ display:none; }
+  .page.on{ display:block; animation:pageIn .6s var(--ease); }
+  @keyframes pageIn{ from{ opacity:0; transform:translateY(14px); } to{ opacity:1; transform:none; } }
+  section{ padding-top:clamp(96px,11vh,150px); padding-bottom:clamp(96px,11vh,150px); }
+  .hero-sec{ padding-top:clamp(128px,17vh,180px); }
+
+  /* TYPE */
+  h1,h2,h3,h4{ margin:0; color:var(--ink); text-wrap:balance; }
+  h1{ font-size:clamp(2.6rem,5.6vw,4.6rem); line-height:1.08; font-weight:300; letter-spacing:-.02em; }
+  h2{ font-size:clamp(1.9rem,3.6vw,2.9rem); line-height:1.16; font-weight:300; letter-spacing:-.015em; }
+  h3{ font-size:1.3rem; font-weight:600; letter-spacing:-.005em; }
+  p{ color:var(--ink-soft); }
+  .lead{ font-size:clamp(1.15rem,1.6vw,1.35rem); font-weight:400; color:var(--ink-soft); line-height:1.6; }
+  .serif{ font-family:var(--font-serif); font-style:italic; font-weight:300; letter-spacing:0; color:var(--ink); }
+  /* En los títulos la frase va en la misma letra; solo la frase clave lleva el verde */
+  h1 .serif, h2 .serif{ font-family:inherit; font-style:normal; font-weight:inherit; color:inherit; }
+  /* Resaltado de fondo (.hl) para el título protagonista de cada página y raya de piso (.raya) para los títulos de sección.
+     Una sola frase resaltada por sección. */
+  .hl{ padding:0 .06em; background-image:linear-gradient(transparent 56%, var(--verde-tint) 56%, var(--verde-tint) 92%, transparent 92%); -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+  .raya{ text-decoration:underline; text-decoration-color:var(--verde); text-decoration-thickness:.08em; text-underline-offset:.18em; text-decoration-skip-ink:none; }
+
+  /* EYEBROW with fill */
+  .eyebrow{ display:inline-flex; align-items:center; gap:9px; font-size:15px; font-weight:600; color:var(--accent-deep); margin:0 0 16px; }
+  .eyebrow.clay{ color:var(--clay-deep); }
+  .eyebrow .num{ display:none; }
+
+  /* LINKS / BTNS */
+  a.link{ color:var(--accent-deep); font-weight:600; display:inline-flex; align-items:center; gap:8px; cursor:pointer; text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:5px; text-decoration-color:color-mix(in oklab,var(--accent-deep) 45%, transparent); }
+  a.link:hover{ text-decoration-color:currentColor; }
+  a.link .arw{ display:none; }
+  .article a.link .arw{ display:inline; }
+  .btn-row{ display:flex; flex-wrap:wrap; gap:13px; align-items:center; }
+  .btn{ display:inline-flex; align-items:center; gap:10px; cursor:pointer; font-family:inherit; font-size:15px; font-weight:500; text-decoration:none; padding:15px 27px; border-radius:999px; border:1px solid transparent; transition:transform .3s var(--ease),background .3s var(--ease),color .3s,border-color .3s; }
+  .btn-primary{ background:var(--ink); color:var(--paper); }
+  .btn-primary:hover{ transform:translateY(-2px); background:var(--accent-deep); color:#fff; box-shadow:var(--shadow-sm); }
+  .btn-clay{ background:var(--clay-deep); color:#fff; }
+  .btn-clay:hover{ transform:translateY(-2px); filter:brightness(1.05); box-shadow:var(--shadow-sm); }
+  .btn-ghost{ border-color:var(--line); color:var(--ink); background:transparent; }
+  .btn-ghost:hover{ border-color:var(--accent); color:var(--accent-deep); }
+
+  /* ---- Fotos de Liliana ---- */
+  /* Cada foto va recortada a su caja; el modificador fija el punto que no se puede perder (la cara) */
+  .foto{ position:relative; margin:0; border-radius:22px; overflow:hidden; border:1px solid var(--line-soft); background:var(--paper-2); }
+  .foto img{ display:block; width:100%; height:100%; object-fit:cover; }
+  .foto--alta{ aspect-ratio:5/6; }
+  .foto--retrato{ aspect-ratio:4/5; }
+  .foto--cuadrada{ aspect-ratio:1/1; }
+  .foto--lago img{ object-position:46% 55%; }
+  .foto--montana img{ object-position:47% 50%; }
+  .foto--ventana img{ object-position:38% 45%; }
+
+  /* HERO */
+  .hero-grid{ display:grid; grid-template-columns:1.15fr .85fr; gap:clamp(30px,4vw,64px); align-items:center; }
+  @media (max-width:880px){ .hero-grid{ grid-template-columns:1fr; } }
+  .hero-photo{ aspect-ratio:4/5; }
+  .hero h1{ font-size:clamp(2rem,4.4vw,3.6rem); line-height:1.06; }
+  .hero h1 .serif{ display:block; }
+  .hero .lead{ margin-top:26px; max-width:40ch; }
+  .hero .btn-row{ margin-top:34px; }
+  .hero .micro{ margin-top:20px; font-size:13px; color:var(--ink-faint); }
+
+  /* COVER INTRO (abre bocas a pantalla completa) */
+  .cover-intro{ position:relative; min-height:100vh; min-height:100svh; display:flex; flex-direction:column; justify-content:center; overflow:hidden; }
+  .ci-bg{ position:absolute; inset:0; z-index:0; }
+  .ci-bg .sky{ position:absolute; inset:0; background:linear-gradient(180deg, color-mix(in oklab,var(--sage) 20%, var(--mist)) 0%, var(--mist) 46%, var(--paper) 100%); }
+  .ci-bg .sun{ position:absolute; top:-14%; right:6%; width:58vw; height:58vw; border-radius:50%; background:radial-gradient(circle, color-mix(in oklab,#fff 60%, transparent), transparent 62%); filter:blur(10px); }
+  .ci-bg svg{ position:absolute; bottom:0; left:0; width:100%; height:min(70vh,620px); display:block; }
+  .ci-fog{ position:absolute; left:0; right:0; bottom:0; height:34%; z-index:1; background:linear-gradient(180deg, transparent, var(--paper) 88%); }
+  .ci-inner{ position:relative; z-index:2; width:100%; }
+  .ci-content{ max-width:760px; }
+  .ci-content .eyebrow{ margin-bottom:22px; }
+  .ci-word{ font-size:clamp(3rem,9vw,6.6rem); font-weight:400; letter-spacing:-.02em; line-height:.98; color:var(--ink); }
+  .ci-word b{ color:var(--accent-deep); font-weight:400; }
+  .ci-tag{ margin:22px 0 0; font-size:clamp(1.2rem,2.4vw,1.7rem); color:var(--ink-soft); max-width:26ch; }
+  .ci-explore{ margin-top:34px; font-size:1.02rem; }
+  .ci-bottom{ position:absolute; left:0; right:0; bottom:34px; z-index:2; display:flex; justify-content:space-between; align-items:center; }
+  .ci-scroll{ font-size:14px; color:var(--ink-faint); display:flex; align-items:center; gap:12px; }
+  .ci-scroll .down{ display:inline-grid; place-items:center; width:34px; height:34px; border:1px solid var(--line); border-radius:999px; color:var(--accent-deep); animation:bob 2.2s var(--ease) infinite; }
+  @keyframes bob{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(5px); } }
+  @media (prefers-reduced-motion:reduce){ .ci-scroll .down{ animation:none; } }
+
+
+  /* SPLIT */
+  .split{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(32px,5vw,80px); align-items:center; }
+  @media (max-width:880px){ .split{ grid-template-columns:1fr; gap:36px; } }
+  .split.rev .col-txt{ order:2; }
+  @media (max-width:880px){ .split.rev .col-txt{ order:0; } }
+  .prose p{ margin:0 0 18px; max-width:56ch; }
+  .prose p:last-child{ margin-bottom:0; }
+
+  /* CARDS grid */
+  .cards{ display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:16px; }
+  .card{ background:color-mix(in oklab,var(--mist) 88%, transparent); border:1px solid var(--line-soft); border-radius:20px; padding:26px 24px 28px; transition:transform .4s var(--ease),border-color .4s,background .4s; cursor:pointer; text-decoration:none; color:inherit; display:block; }
+  .card:hover{ border-color:color-mix(in oklab,var(--accent) 45%, transparent); background:var(--mist); }
+  .card .ch{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:34px; }
+  .card .ch h3{ font-weight:500; }
+  .card .arw{ display:none; }
+  .card p{ font-size:16px; margin:0; }
+
+  /* ---- Tarjetas con ilustración de línea (¿Qué te trae hoy?): cada una con su tono y su dibujo, que se vuelve a trazar al pasar o enfocar ---- */
+  .cards-ill{ margin-top:44px; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:18px; }
+  .cards-ill .card{ padding:26px 26px 30px; border-radius:24px; border-color:transparent; }
+  .cards-ill .card:nth-child(4n+1){ background:color-mix(in oklab,var(--sage) 16%, var(--mist)); }
+  .cards-ill .card:nth-child(4n+2){ background:color-mix(in oklab,var(--clay) 13%, var(--mist)); }
+  .cards-ill .card:nth-child(4n+3){ background:color-mix(in oklab,var(--paper-2) 70%, var(--mist)); }
+  .cards-ill .card:nth-child(4n+4){ background:color-mix(in oklab,var(--sage) 26%, var(--mist)); }
+  .cards-ill .card:hover, .cards-ill .card:focus-visible{ border-color:color-mix(in oklab,var(--accent-deep) 35%, transparent); }
+  .cards-ill .card:focus-visible{ outline:2px solid var(--accent-deep); outline-offset:3px; }
+  .card-ill{ display:block; width:120px; height:80px; margin:0 0 26px -6px; fill:none; stroke:var(--accent-deep); stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; overflow:visible; }
+  .cards-ill .card:nth-child(4n+2) .card-ill{ stroke:var(--clay-deep); }
+  .card-ill .trail{ stroke-dasharray:2 7; opacity:.7; }
+  .card-ill .ground{ opacity:.4; }
+  .card-ill .draw{ stroke-dasharray:1; stroke-dashoffset:0; }
+  .cards-ill .card:hover .draw, .cards-ill .card:focus-visible .draw{ animation:redraw 1.4s var(--ease) both; }
+  @keyframes redraw{ from{ stroke-dashoffset:1; } to{ stroke-dashoffset:0; } }
+  .cards-ill .ch{ margin-bottom:10px; }
+  .cards-ill .ch h3{ font-size:1.3rem; }
+  .cards-ill .card p{ color:var(--ink-soft); }
+
+  /* PILLARS */
+  .pillars{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+  @media (max-width:900px){ .pillars{ grid-template-columns:1fr; } }
+  .pillar{ border:1px solid var(--line-soft); border-radius:22px; padding:32px 28px; background:color-mix(in oklab,var(--mist) 55%, transparent); }
+  .pillar .k{ font-size:15px; color:var(--accent-deep); font-weight:600; }
+  .pillar h3{ margin:16px 0 12px; font-size:1.5rem; font-weight:500; }
+  .pillar p{ margin:0; font-size:16.5px; max-width:38ch; }
+  .pillar .link{ margin-top:16px; }
+
+  /* STEPS */
+  .steps{ display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(24px,4vw,48px); }
+  @media (max-width:820px){ .steps{ grid-template-columns:1fr; gap:32px; } }
+  .step .n{ font-family:var(--font-serif); font-style:italic; font-size:2.6rem; color:var(--accent); line-height:1; }
+  .step h3{ margin:16px 0 10px; font-weight:500; }
+  .step p{ margin:0; font-size:16.5px; max-width:36ch; }
+  .step .dv{ height:1px; background:var(--line-soft); margin-top:20px; }
+
+  /* ---- Trayectoria: quién es Liliana, con su foto ---- */
+  .tray{ display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:clamp(40px,6vw,96px); align-items:center; }
+  .tray-lead{ margin-top:22px; color:var(--ink-soft); }
+  .tray-lead p{ max-width:46ch; }
+  .foto--valle img{ object-position:55% 30%; }
+  @media (max-width:900px){ .tray{ grid-template-columns:1fr; gap:40px; } }
+
+  /* ---- Mi propósito: cierra Inicio antes del primer paso ---- */
+  .proposito{ display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr); gap:clamp(28px,5vw,80px); align-items:end; }
+  .proposito .sec-head{ max-width:20ch; }
+  .prop-modo{ margin:0; font-weight:500; color:var(--ink); }
+  .prop-txt{ margin:14px 0 0; max-width:44ch; color:var(--ink-soft); }
+  @media (max-width:860px){ .proposito{ grid-template-columns:1fr; } }
+
+  /* ---- Testimonios ---- */
+  /* Una voz protagonista sin caja, en la cursiva de las citas. Las otras dos la acompañan debajo, más pequeñas,
+     separadas solo por una línea fina. Sin fotos ni nombres completos: firma con inicial y tipo de proceso. */
+  .voces-etiquetas{ display:flex; flex-wrap:wrap; align-items:center; gap:14px; margin-bottom:24px; }
+  .voces-etiquetas .eyebrow{ margin:0; }
+  .voz{ margin:0; }
+  .voz-cita{ margin:0; }
+  .voz-cita p{ margin:0; font-family:var(--font-serif); font-style:italic; font-weight:300; color:var(--ink); }
+  .voz-firma{ display:flex; flex-direction:column; gap:2px; margin-top:16px; font-size:14px; line-height:1.45; }
+  .voz-nombre{ color:var(--ink); font-weight:500; }
+  .voz-proceso{ color:var(--ink-soft); }
+  /* protagonista */
+  .voz--main{ margin-top:clamp(40px,5vw,60px); padding:6px 0 6px clamp(18px,2.4vw,30px); border-left:2px solid var(--clay); }
+  .voz--main .voz-cita p{ font-size:clamp(1.6rem,3vw,2.45rem); line-height:1.28; letter-spacing:-.01em; text-indent:-.42em; max-width:30ch; }
+  .voz--main .voz-firma{ margin-top:24px; }
+  /* acompañantes */
+  .voces{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(28px,5vw,72px); margin-top:clamp(48px,6vw,80px); }
+  .voces .voz{ padding-top:22px; border-top:1px solid var(--line); }
+  .voces .voz-cita p{ font-size:clamp(1.15rem,1.6vw,1.3rem); line-height:1.5; max-width:40ch; }
+  @media (max-width:720px){ .voces{ grid-template-columns:1fr; } }
+
+  /* BLOG */
+  .blog-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:20px; }
+  .post{ border:1px solid var(--line-soft); border-radius:22px; overflow:hidden; background:color-mix(in oklab,var(--mist) 75%, transparent); cursor:pointer; transition:transform .4s var(--ease), box-shadow .4s, border-color .4s; display:flex; flex-direction:column; }
+  a.post{ color:inherit; text-decoration:none; }
+  .post:hover{ border-color:color-mix(in oklab,var(--accent) 40%, transparent); }
+  .post .pbody{ padding:22px 22px 26px; display:flex; flex-direction:column; gap:12px; flex:1; }
+  .post .ptag{ font-size:14px; color:var(--accent-deep); font-weight:600; }
+  .post h3{ font-size:1.22rem; font-weight:500; line-height:1.2; }
+  .post .pex{ margin:0; font-family:var(--font-serif); font-style:italic; font-size:1.06rem; line-height:1.5; color:var(--ink-soft); }
+  .post .pmeta{ margin-top:auto; padding-top:6px; font-size:12.5px; color:var(--ink-faint); }
+
+  /* ARTICLE */
+  .article{ max-width:720px; margin:0 auto; }
+  .article .volver{ display:flex; width:max-content; margin-bottom:28px; }
+  .article h1{ font-size:clamp(2.1rem,4.4vw,3.2rem); line-height:1.08; }
+  .article .adek{ margin:18px 0 0; font-family:var(--font-serif); font-style:italic; font-weight:300; font-size:1.3rem; line-height:1.45; color:var(--ink-soft); }
+  .article .pmeta{ margin:16px 0 0; font-size:13.5px; color:var(--ink-faint); }
+  .article .cover{ aspect-ratio:2/1; margin:34px 0 0; }
+  .article .cover.foto--liliana-montana img{ object-position:50% 60%; }
+  .article .cover.foto--liliana-ventana img{ object-position:38% 40%; }
+  .article .cover.foto--arbol-laguna-ancho img{ object-position:50% 55%; }
+  .article .abody{ margin-top:40px; font-size:1.12rem; line-height:1.8; }
+  .article .abody p{ margin:0 0 16px; }
+  .article .abody h2{ font-size:1.6rem; margin:44px 0 16px; }
+  .article .abody h3{ font-size:1.2rem; font-weight:600; margin:34px 0 12px; }
+  .article .abody .dek{ font-family:var(--font-serif); font-style:italic; font-size:1.18rem; color:var(--ink-soft); }
+  .article .abody hr{ width:80px; margin:40px 0; border:0; border-top:1px solid var(--line); }
+  .article .abody .firma{ color:var(--ink); }
+  .article .abody blockquote{ margin:32px 0; padding-left:22px; border-left:3px solid var(--accent); font-family:var(--font-serif); font-style:italic; font-size:1.3rem; color:var(--ink); }
+
+  /* CTA band */
+  .cta-band{ border-radius:28px; padding:clamp(40px,6vw,72px); text-align:center; position:relative; overflow:hidden; background:linear-gradient(140deg, color-mix(in oklab,var(--clay) 30%, var(--mist)), var(--mist) 55%, color-mix(in oklab,var(--accent) 24%, var(--mist))); border:1px solid var(--line-soft); }
+  .cta-band::before{ content:""; position:absolute; inset:-30%; background:radial-gradient(40% 50% at 20% 20%, color-mix(in oklab,#fff 40%, transparent), transparent 65%); filter:blur(24px); }
+  .cta-band > *{ position:relative; z-index:1; }
+  .cta-band h2{ max-width:20ch; margin:0 auto; }
+  .cta-band .lead{ max-width:46ch; margin:20px auto 32px; }
+  .cta-band .btn-row{ justify-content:center; }
+
+  /* FAQ */
+  .faq{ margin-top:30px; border-top:1px solid var(--line-soft); }
+  .faq details{ border-bottom:1px solid var(--line-soft); }
+  .faq summary{ list-style:none; cursor:pointer; padding:24px 0; display:flex; justify-content:space-between; align-items:center; gap:20px; font-size:1.12rem; font-weight:500; color:var(--ink); }
+  .faq summary::-webkit-details-marker{ display:none; }
+  .faq summary .pm{ color:var(--accent); font-size:22px; transition:transform .3s var(--ease); flex:none; }
+  .faq details[open] summary .pm{ transform:rotate(45deg); }
+  .faq .fa{ padding:0 0 24px; max-width:64ch; }
+  .faq .fa p{ margin:0; }
+
+  /* SECTION HEADER helper */
+  .sec-head{ max-width:24ch; }
+  .sec-sub{ margin-top:20px; max-width:56ch; }
+  .sec-top{ display:flex; justify-content:space-between; align-items:flex-end; gap:20px; flex-wrap:wrap; margin-bottom:34px; }
+  .sec-top .sec-head{ margin:0; }
+  .mas{ margin-top:28px; }
+  .btn-sm{ padding:12px 22px; font-size:14px; }
+  /* Encabezado de cada página interior: el h1 es el protagonista y el párrafo lo acompaña */
+  .page-h1{ max-width:16ch; }
+  .page-lead{ margin-top:26px; max-width:48ch; }
+  .nota{ margin-top:20px; color:var(--ink-faint); font-size:12.5px; }
+  /* Portada: las cuatro capas de cerros */
+  .ci-c1{ fill:color-mix(in oklab,var(--sage) 15%,var(--mist)); }
+  .ci-c2{ fill:color-mix(in oklab,var(--sage) 26%,var(--mist)); }
+  .ci-c3{ fill:color-mix(in oklab,var(--sage) 40%,var(--mist)); }
+  .ci-c4{ fill:color-mix(in oklab,var(--sage) 56%,var(--mist)); }
+
+  /* ---- Agenda: contacto directo y aviso de crisis ---- */
+  .agenda-btns{ margin-top:32px; }
+  .contacto{ margin:30px 0 0; display:grid; gap:10px; }
+  .contacto div{ display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; }
+  .contacto dt{ min-width:84px; font-size:14px; font-weight:600; color:var(--ink-faint); }
+  .contacto dd{ margin:0; }
+  .contacto a{ color:var(--ink); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px; text-decoration-color:var(--line); overflow-wrap:anywhere; }
+  .contacto a:hover{ text-decoration-color:currentColor; }
+  .crisis{ margin:28px 0 0; padding-top:20px; border-top:1px solid var(--line-soft); max-width:50ch; font-size:14px; line-height:1.6; color:var(--ink-faint); }
+  .crisis a{ color:var(--ink-soft); }
+
+  /* FOOTER */
+  footer{ border-top:1px solid var(--line-soft); padding:56px 0 64px; margin-top:40px; }
+  .foot{ display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:32px; }
+  @media (max-width:760px){ .foot{ grid-template-columns:1fr; gap:26px; } }
+  .foot .fb{ font-weight:600; font-size:18px; color:var(--ink); }
+  .foot .fb b{ color:var(--accent-deep); }
+  .foot p{ font-size:15.5px; margin:12px 0 0; max-width:34ch; }
+  .foot h5{ margin:0 0 12px; font-size:14px; color:var(--ink-faint); font-weight:600; }
+  .foot .fl{ display:flex; flex-direction:column; gap:9px; }
+  .foot .fl a{ color:var(--ink-soft); text-decoration:none; font-size:14px; cursor:pointer; }
+  .foot .fl a:hover{ color:var(--accent-deep); }
+  .foot .legal a{ color:inherit; }
+  .foot .legal{ grid-column:1/-1; margin-top:36px; padding-top:24px; border-top:1px solid var(--line-soft); font-size:12px; color:var(--ink-faint); display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+
+  /* Foco visible con teclado en links, botones y desplegables */
+  a:focus-visible, button:focus-visible, summary:focus-visible{ outline:2px solid var(--accent-deep); outline-offset:3px; border-radius:6px; }
+  .btn:focus-visible, .nav a:focus-visible, .nav-toggle:focus-visible, .icon-btn:focus-visible{ border-radius:999px; }
+  .card:focus-visible, .post:focus-visible{ outline-offset:3px; border-radius:20px; }
+
+  /* reveal */
+  /* Sin entradas animadas por sección: el contenido se ve siempre, con o sin JavaScript. La clase .in la sigue usando la línea del viaje */
+  .rv{ opacity:1; }
+  .stack > * + *{ margin-top:clamp(60px,8vh,110px); }
+
+  /* ---- Portada: secuencia de entrada + parallax ---- */
+  .ci-content > *{ opacity:0; animation:seqUp .9s var(--ease) forwards; }
+  .ci-content > *:nth-child(1){ animation-delay:.15s; }
+  .ci-content > *:nth-child(2){ animation-delay:.32s; }
+  .ci-content > *:nth-child(3){ animation-delay:.5s; }
+  .ci-content > *:nth-child(4){ animation-delay:.68s; }
+  .ci-bottom{ opacity:0; animation:seqUp .9s var(--ease) .95s forwards; }
+  @keyframes seqUp{ from{ opacity:0; transform:translateY(22px);} to{ opacity:1; transform:none; } }
+  .ci-bg .sun, .ci-bg svg, .ci-content{ will-change:transform; }
+
+  /* ---- Enfoque: ciclo del patrón que se repite ---- */
+  .cycle-wrap{ display:grid; grid-template-columns:340px 1fr; gap:clamp(30px,5vw,70px); align-items:center; margin-top:46px; }
+  @media (max-width:820px){ .cycle-wrap{ grid-template-columns:1fr; justify-items:center; } }
+  .cycle{ position:relative; width:320px; height:320px; max-width:100%; }
+  .cycle svg{ width:100%; height:100%; overflow:visible; }
+  .cycle .ring-rot{ transform-origin:160px 160px; animation:spin 16s linear infinite; }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  .cycle.broken .ring-rot{ animation-play-state:paused; opacity:.28; }
+  .cycle .node{ fill:var(--mist); stroke:var(--accent); stroke-width:1.5; }
+  .cycle .ring-rot circle{ stroke:var(--accent); }
+  .cycle .flecha{ fill:var(--accent); }
+  .cycle .exit path{ stroke:var(--clay-deep); }
+  .cycle .exit polygon{ fill:var(--clay-deep); }
+  .cycle .nlabel{ fill:var(--ink); font-size:12.5px; font-weight:600; font-family:var(--font-sans); }
+  .cycle .exit{ opacity:0; transition:opacity .5s var(--ease); }
+  .cycle.broken .exit{ opacity:1; }
+  .cycle .center-txt{ position:absolute; inset:0; display:grid; place-items:center; text-align:center; padding:0 66px; pointer-events:none; }
+  .cycle .center-txt span{ font-family:var(--font-serif); font-style:italic; font-size:1.02rem; line-height:1.3; color:var(--ink); }
+  .cycle-cta{ margin-top:22px; }
+  .cycle-txt p{ margin:0 0 18px; max-width:52ch; }
+  .cycle-txt p:last-of-type{ margin-bottom:0; }
+
+  /* ---- Título largo de la página de integración psicodélica ---- */
+  .psi-title{ max-width:22ch; font-size:clamp(2.1rem,4.2vw,3.4rem); line-height:1.08; }
+
+  /* ---- Integración psicodélica: tres fases ---- */
+  .contrast{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  @media (max-width:760px){ .contrast{ grid-template-columns:1fr; } }
+  .cbox{ border:1px solid var(--line-soft); border-radius:20px; padding:30px; background:color-mix(in oklab,var(--mist) 55%, transparent); }
+  .cbox h4{ font-size:16px; margin:0 0 18px; }
+  .cbox.is h4{ color:var(--sage-deep); }
+  .cbox.isnot h4{ color:var(--clay-deep); }
+  .cbox ul{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:13px; }
+  .cbox li{ font-size:16.5px; color:var(--ink-soft); padding-left:22px; position:relative; }
+  .cbox li::before{ content:""; position:absolute; left:0; top:9px; width:8px; height:8px; border-radius:2px; background:var(--accent); opacity:.55; }
+  .cbox.isnot li::before{ background:var(--clay); }
+  .journey{ margin-top:52px; }
+  .jline{ position:relative; height:2px; background:var(--line); margin:0 14% 40px; border-radius:2px; }
+  @media (max-width:820px){ .jline{ display:none; } }
+  .jfill{ position:absolute; left:0; top:0; height:100%; width:0; background:var(--accent); border-radius:2px; transition:width 1.8s var(--ease); }
+  .journey.in .jfill{ width:100%; }
+  .jsteps{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+  @media (max-width:820px){ .jsteps{ grid-template-columns:1fr; gap:22px; } }
+  .jstep .jn{ width:46px; height:46px; border-radius:50%; border:1px solid var(--accent); color:var(--accent-deep); display:grid; place-items:center; font-family:var(--font-serif); font-style:italic; font-size:1.2rem; margin-bottom:18px; background:var(--mist); }
+  .jstep h3{ margin:0 0 10px; font-weight:500; }
+  .jstep p{ margin:0; font-size:16.5px; max-width:34ch; }
+
+  /* ---- Heros de página variados + motivos en línea ---- */
+  .phero-split{ display:grid; grid-template-columns:1.15fr .85fr; gap:clamp(24px,5vw,64px); align-items:center; }
+  @media (max-width:820px){ .phero-split{ grid-template-columns:1fr; } .phero-split .motif{ display:none; } }
+  .foto--arbol img{ object-position:50% 45%; }
+  .foto--kayak img{ object-position:60% 50%; }
+  @media (max-width:820px){ .phero-foto{ aspect-ratio:4/3; } }
+  .phero-center{ text-align:center; }
+  .phero-center h1, .phero-center .lead{ margin-left:auto; margin-right:auto; }
+  .motif{ color:var(--accent); opacity:.5; }
+  .motif.clay{ color:var(--clay-deep); opacity:.55; }
+  .motif svg{ width:100%; height:auto; display:block; max-width:300px; margin-left:auto; }
+  .motif circle{ fill:var(--mist); }
+  .phero-center .motif{ margin:0 auto 26px; }
+  .phero-center .motif svg{ max-width:124px; margin:0 auto; }
+
+  /* ---- Mobile / iOS (Safari + Chrome) ---- */
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
+    .nav{ background:var(--mist); }
+  }
+  .nav{ top:max(18px, env(safe-area-inset-top)); }
+  .ci-bottom{ bottom:max(30px, env(safe-area-inset-bottom)); }
+  @media (max-width:520px){
+    .nav{ gap:1px; padding:6px; }
+    .nav .brand{ font-size:13px; padding:8px 6px 8px 12px; }
+    .nav a{ font-size:13px; padding:8px 12px; }
+    .ci-bottom .btn{ display:none; }
+    section{ padding-top:clamp(74px,10vh,120px); padding-bottom:clamp(74px,10vh,120px); }
+  }
+  @media (hover:none){
+    .btn:hover,.card:hover,.post:hover{ transform:none; box-shadow:none; }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{ scroll-behavior:auto !important; }
+    .rv{ opacity:1; transform:none; transition:none; }
+    .page.on{ animation:none; }
+    .btn:hover,.card:hover,.post:hover{ transform:none; }
+    .ci-content > *, .ci-bottom{ animation:none !important; opacity:1 !important; }
+    .cards-ill .card .draw{ animation:none !important; }
+    .cycle .ring-rot{ animation:none; }
+    .jfill{ transition:none; width:100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="atmosphere"></div>
+<div class="grain"></div>
+
+<nav class="nav" aria-label="Navegación" data-seccion="global-menu">
+  <a href="#inicio" class="brand" data-route="inicio">Liliana&nbsp;Torres<b>.</b></a>
+  <a href="#enfoque" class="opt" data-route="enfoque">Enfoque</a>
+  <a href="#temas" class="opt" data-route="temas">Temas</a>
+  <a href="#proceso" class="opt" data-route="proceso">Proceso</a>
+  <a href="#psilocibina" class="opt" data-route="psilocibina">Integración psicodélica</a>
+  <a href="#modalidades" class="opt" data-route="modalidades">Modalidades</a>
+  <a href="#blog" class="hide-sm" data-route="blog">Blog</a>
+  <a href="#agenda" class="cta" data-route="agenda">Agenda</a>
+  <button class="nav-toggle" id="menuBtn" type="button" aria-expanded="false" aria-controls="navPanel"><span class="bars" aria-hidden="true"></span>Menú</button>
+  <button class="icon-btn" id="themeBtn" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Claro / oscuro">◐</button>
+</nav>
+<div class="nav-panel" id="navPanel" hidden>
+  <a href="#inicio" data-route="inicio">Inicio</a>
+  <a href="#enfoque" data-route="enfoque">Enfoque</a>
+  <a href="#temas" data-route="temas">Temas</a>
+  <a href="#proceso" data-route="proceso">Proceso</a>
+  <a href="#psilocibina" data-route="psilocibina">Integración psicodélica</a>
+  <a href="#modalidades" data-route="modalidades">Modalidades</a>
+  <a href="#blog" data-route="blog">Blog</a>
+  <a class="cta" href="#agenda" data-route="agenda">Agenda una conversación</a>
+</div>
+
+<main id="app">
+
+  <!-- ============ INICIO ============ -->
+  <div class="page" data-page="inicio">
+    <section class="cover-intro" data-seccion="inicio-portada">
+      <div class="ci-bg">
+        <div class="sky"></div>
+        <div class="sun"></div>
+        <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+          <path class="ci-c1" d="M0,240 C180,200 320,262 520,225 C720,190 900,256 1120,220 C1280,196 1380,236 1440,215 L1440,600 L0,600 Z"/>
+          <path class="ci-c2" d="M0,332 C200,292 360,352 560,316 C760,280 960,346 1180,312 C1320,290 1400,326 1440,306 L1440,600 L0,600 Z"/>
+          <path class="ci-c3" d="M0,412 C160,382 340,432 540,400 C780,366 980,426 1200,396 C1330,380 1410,406 1440,396 L1440,600 L0,600 Z"/>
+          <path class="ci-c4" d="M0,502 C220,472 420,512 640,486 C860,460 1060,506 1260,482 C1360,470 1420,494 1440,486 L1440,600 L0,600 Z"/>
+        </svg>
+      </div>
+      <div class="ci-fog"></div>
+      <div class="wrap ci-inner">
+        <div class="ci-content rv">
+          <span class="eyebrow">Psicóloga clínica, más de veinte años acompañando procesos</span>
+          <h1 class="ci-word">Liliana Torres<b>.</b></h1>
+          <p class="ci-tag serif">Con profundidad, pero también con humanidad.</p>
+          <a href="#enfoque" class="link ci-explore" data-route="enfoque">Explorar el enfoque <span class="arw">&rarr;</span></a>
+        </div>
+      </div>
+      <div class="wrap ci-bottom">
+        <div class="ci-scroll"><span class="down">&darr;</span> Desliza para descubrir</div>
+        <a href="#agenda" class="btn btn-primary btn-sm" data-route="agenda">Agenda</a>
+      </div>
+    </section>
+    <section class="hero-sec hero wrap" data-seccion="inicio-presentacion">
+      <div class="hero-grid">
+        <div class="rv">
+          <h1>El cambio no comienza cuando dejamos de sufrir. Comienza cuando aprendemos a relacionarnos <span class="hl">de una manera diferente.</span></h1>
+          <p class="lead">Acompaño a personas que atraviesan momentos de cambio, búsqueda personal o experiencias que necesitan ser comprendidas e integradas.</p>
+          <div class="btn-row">
+            <a href="#agenda" class="btn btn-primary" data-route="agenda">Agenda una primera conversación</a>
+            <a href="#enfoque" class="link" data-route="enfoque">Conoce mi enfoque <span class="arw">&rarr;</span></a>
+          </div>
+        </div>
+        <div class="rv">
+          <figure class="foto hero-photo foto--lago">
+            <img src="img/liliana-lago-sonrisa.jpg" alt="Liliana Torres sonríe junto a un lago, entre árboles y montañas" width="960" height="1280" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" data-seccion="inicio-quien-soy">
+      <div class="split rev rv">
+        <div class="col-txt">
+          <span class="eyebrow clay">Si estás aquí</span>
+          <h2 class="sec-head">Quizás estás atravesando un momento en el que algo en tu vida <span class="raya">ya no se siente como antes.</span></h2>
+          <div class="prose sec-sub">
+            <p>Puede ser ansiedad, estrés, una relación que te genera sufrimiento, una dificultad para poner límites, una pérdida, un cambio importante o simplemente esa sensación de estar haciendo todo lo posible y, aun así, no sentirte bien.</p>
+            <p>Si estás aquí, probablemente estás buscando comprender qué te está pasando y encontrar una manera diferente de afrontarlo.</p>
+          </div>
+          <div class="btn-row mas"><a href="#enfoque" class="link" data-route="enfoque">Cómo trabajo <span class="arw">&rarr;</span></a></div>
+        </div>
+        <div class="col-img">
+          <figure class="foto foto--alta foto--montana">
+            <img src="img/liliana-montana.jpg" alt="Liliana Torres con su cámara de fotos frente a un nevado de los Andes" width="1280" height="960" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="inicio-que-te-trae">
+      <span class="eyebrow">¿Qué te trae hoy?</span>
+      <h2 class="sec-head">Empecemos por lo que <span class="raya">estás sintiendo.</span></h2>
+      <div class="cards cards-ill">
+        <a class="card" href="#temas" data-route="temas">
+          <svg class="card-ill" viewBox="0 0 120 80" aria-hidden="true"><path class="draw" pathLength="1" d="M8,40 C14,22 26,58 20,40 C14,24 32,26 28,42 C24,58 40,52 38,38 C36,26 50,30 54,40 C62,56 74,24 84,40 C92,52 102,30 112,40"/></svg>
+          <div class="ch"><h3>Ansiedad y estrés</h3><span class="arw">&rarr;</span></div><p>Cuando la mente no para y el cuerpo lo empieza a resentir.</p></a>
+        <a class="card" href="#temas" data-route="temas">
+          <svg class="card-ill" viewBox="0 0 120 80" aria-hidden="true"><path class="trail" d="M10,12 C36,8 28,38 54,34 C76,31 70,54 86,58"/><path class="draw" pathLength="1" d="M90,62 C94,50 106,47 113,51 C109,62 99,68 90,62 Z M90,62 C98,58 105,55 112,52"/></svg>
+          <div class="ch"><h3>Pérdidas y cambios</h3><span class="arw">&rarr;</span></div><p>Una pérdida, un cambio importante, una crisis vital.</p></a>
+        <a class="card" href="#temas" data-route="temas">
+          <svg class="card-ill" viewBox="0 0 120 80" aria-hidden="true"><circle class="draw" pathLength="1" cx="48" cy="40" r="22"/><circle class="draw" pathLength="1" cx="72" cy="40" r="22"/></svg>
+          <div class="ch"><h3>Relaciones y vínculos</h3><span class="arw">&rarr;</span></div><p>Una relación que te genera sufrimiento o una dificultad para poner límites.</p></a>
+        <a class="card" href="#temas" data-route="temas">
+          <svg class="card-ill" viewBox="0 0 120 80" aria-hidden="true"><path class="ground" d="M24,68 L96,68"/><path class="draw" pathLength="1" d="M60,68 C60,56 60,46 60,30 M60,48 C50,46 44,38 46,30 C56,32 60,40 60,48 Z M60,40 C68,38 76,30 74,22 C64,24 60,32 60,40 Z"/></svg>
+          <div class="ch"><h3>Crecimiento personal</h3><span class="arw">&rarr;</span></div><p>Volver a ti con más presencia y menos exigencia.</p></a>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="inicio-trayectoria">
+      <div class="tray">
+        <header class="tray-head">
+          <span class="eyebrow clay">Trayectoria</span>
+          <h2 class="sec-head">Soy Liliana Torres Mora.</h2>
+          <div class="prose tray-lead">
+            <p>Soy psicóloga clínica, nací en Bogotá, Colombia, y desde hace más de veinte años acompaño a personas, parejas, familias, líderes y equipos en diferentes momentos de sus vidas.</p>
+            <p>Pero mi manera de trabajar no se define únicamente por mi formación. Se ha construido también a través de los años, de las historias que he tenido el privilegio de escuchar, de las personas que me han permitido acompañarlas en momentos de vulnerabilidad y de mi propia experiencia de vida.</p>
+          </div>
+        </header>
+        <figure class="foto foto--retrato foto--valle">
+          <img src="img/liliana-valle.jpg" alt="Liliana Torres sonríe con su cámara de fotos en un valle de los Andes" width="960" height="1280" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Testimonios: oculta hasta tener los textos reales de ex pacientes. Para publicarla, cambiar las citas y firmas y quitar el atributo hidden -->
+    <section class="wrap rv" data-seccion="inicio-testimonios" hidden>
+      <div class="voces-etiquetas">
+        <span class="eyebrow">Testimonios</span>
+      </div>
+      <h2 class="sec-head">Lo que me cuentan cuando miran atrás.</h2>
+      <figure class="voz voz--main">
+        <blockquote class="voz-cita"><p>“Aquí va el testimonio de un ex paciente, en sus palabras y con su consentimiento escrito.”</p></blockquote>
+        <figcaption class="voz-firma"><span class="voz-nombre">Inicial, edad</span><span class="voz-proceso">Tipo de proceso</span></figcaption>
+      </figure>
+      <div class="voces">
+        <figure class="voz">
+          <blockquote class="voz-cita"><p>“Aquí va un segundo testimonio real, más breve.”</p></blockquote>
+          <figcaption class="voz-firma"><span class="voz-nombre">Inicial, edad</span><span class="voz-proceso">Tipo de proceso</span></figcaption>
+        </figure>
+        <figure class="voz">
+          <blockquote class="voz-cita"><p>“Aquí va un tercer testimonio real, más breve.”</p></blockquote>
+          <figcaption class="voz-firma"><span class="voz-nombre">Inicial, edad</span><span class="voz-proceso">Tipo de proceso</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="inicio-blog">
+      <div class="sec-top">
+        <div><span class="eyebrow">Desde el blog</span><h2 class="sec-head">Ideas para el camino.</h2></div>
+        <a href="#blog" class="link" data-route="blog">Ver todo el blog <span class="arw">&rarr;</span></a>
+      </div>
+      <div class="blog-grid" data-blog-preview></div>
+    </section>
+
+    <section class="wrap rv" data-seccion="inicio-proposito">
+      <div class="proposito">
+        <div>
+          <span class="eyebrow">Mi propósito</span>
+          <h2 class="sec-head">Acompañarte a <span class="raya">transformar</span> la manera en que te relacionas contigo mismo, con los demás y con la vida.</h2>
+        </div>
+        <div class="lead">
+          <p class="prop-modo">Desde una mirada sistémica, consciente y compasiva. Con profundidad, pero también con humanidad.</p>
+          <p class="prop-txt">Porque para mí, hacer terapia no es simplemente aliviar el sufrimiento. Es abrir un espacio para comprender, crecer y vivir de una manera más consciente y coherente con quien eres y con la vida que quieres construir.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="inicio-primer-paso">
+      <div class="cta-band">
+        <span class="eyebrow">Primer paso</span>
+        <h2>Cuando quieras, empezamos por una conversación.</h2>
+        <p class="lead">Veinte minutos para conocernos, sin costo y sin compromiso. Desde ahí decidimos si es el espacio adecuado para ti.</p>
+        <div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a><a href="#proceso" class="btn btn-ghost" data-route="proceso">Ver cómo es el proceso</a></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ ENFOQUE ============ -->
+  <div class="page" data-page="enfoque">
+    <section class="hero-sec wrap rv" data-seccion="enfoque-encabezado">
+      <div class="phero-split">
+        <div>
+          <span class="eyebrow"><span class="num">01</span> El enfoque</span>
+          <h1 class="page-h1">Somos personas <span class="serif"><span class="hl">con una historia.</span></span></h1>
+          <p class="lead page-lead">Muchas veces hacemos lo mejor que podemos con lo que hemos aprendido y con los recursos que tenemos disponibles en ese momento. Y, a veces, aquello que alguna vez nos ayudó a protegernos, adaptarnos o seguir adelante deja de funcionar y comienza a generar sufrimiento. Ahí puede comenzar un proceso de transformación.</p>
+        </div>
+        <figure class="foto foto--retrato foto--arbol phero-foto">
+          <img src="img/arbol-laguna.jpg" alt="Un árbol de corteza rojiza y ramas retorcidas frente a una laguna turquesa entre montañas" width="960" height="1280" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="enfoque-pilares">
+      <div class="pillars">
+        <div class="pillar">
+          <div class="k">Sistémica, Palo Alto</div>
+          <h3>La solución intentada</h3>
+          <p>Muchas veces, lo que haces para resolver un problema es justo lo que lo mantiene vivo. Miramos ese patrón y cambiamos el intento.</p>
+        </div>
+        <div class="pillar">
+          <div class="k">Mindfulness y compasión</div>
+          <h3>Aprender a relacionarte de otra manera</h3>
+          <p>Observar tus pensamientos, emociones y sensaciones sin reaccionar automáticamente crea un espacio entre lo que sientes y lo que haces. La compasión te ayuda a tratarte desde la comprensión y no desde la exigencia, la culpa o la autocrítica.</p>
+        </div>
+        <div class="pillar">
+          <div class="k">Experiencias psicodélicas</div>
+          <h3>Preparación e integración</h3>
+          <p>Evaluación, preparación e integración psicoterapéutica, desde un enfoque de reducción de riesgos y sin ofrecer ni facilitar sustancias psicoactivas.</p>
+          <a href="#psilocibina" class="link" data-route="psilocibina">Ver el proceso completo <span class="arw">&rarr;</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="enfoque-palo-alto">
+      <span class="eyebrow">Terapia sistémica</span>
+      <h2 class="sec-head">Una mirada diferente <span class="raya">al sufrimiento.</span></h2>
+      <div class="cycle-wrap">
+        <div class="cycle" id="cycle">
+          <svg viewBox="0 0 320 320" aria-hidden="true">
+            <g class="ring-rot">
+              <circle cx="160" cy="160" r="118" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 12" opacity=".8"/>
+              <polygon class="flecha" points="278,160 264,154 264,166"/>
+            </g>
+            <circle class="node" cx="160" cy="42" r="7"/>
+            <circle class="node" cx="258" cy="238" r="7"/>
+            <circle class="node" cx="62" cy="238" r="7"/>
+            <text class="nlabel" x="160" y="24" text-anchor="middle">Tu historia</text>
+            <text class="nlabel" x="272" y="264" text-anchor="middle">Tus relaciones</text>
+            <text class="nlabel" x="48" y="264" text-anchor="middle">Se repite</text>
+            <g class="exit"><path d="M160,278 L160,308" fill="none" stroke="var(--clay-deep)" stroke-width="2"/><polygon points="160,316 153,304 167,304"/></g>
+          </svg>
+          <div class="center-txt"><span id="cycleCenter">Un patrón que se repite de manera automática.</span></div>
+        </div>
+        <div class="cycle-txt">
+          <p>Mi enfoque es sistémico porque entiendo que nadie puede comprenderse completamente separado de sus relaciones y de su contexto. Somos parte de familias, parejas, comunidades, culturas y diferentes sistemas que influyen en la manera en que pensamos, sentimos y nos relacionamos.</p>
+          <p>Por eso, cuando trabajamos juntos, no busco solamente identificar qué está pasando dentro de ti. También exploramos qué ocurre en tus relaciones, qué patrones se repiten, qué aprendiste a lo largo de tu historia y qué lugar ocupan hoy esas experiencias en tu manera de vivir.</p>
+          <p>No se trata de buscar culpables. Se trata de comprender. Porque cuando podemos mirar nuestra historia con mayor claridad, dejamos de repetirla de manera automática y empiezan a aparecer nuevas posibilidades.</p>
+          <button class="btn btn-ghost cycle-cta" data-cycle-toggle>Mirar tu historia con claridad</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" data-seccion="enfoque-filosofia">
+      <div class="split rev rv">
+        <div class="col-img">
+          <figure class="foto foto--retrato foto--lago">
+            <img src="img/liliana-lago.jpg" alt="Liliana Torres de pie junto a un lago de aguas verdes, con su cámara al hombro" width="960" height="1280" loading="lazy" decoding="async">
+          </figure>
+        </div>
+        <div class="col-txt">
+          <span class="eyebrow clay">Qué puedes esperar</span>
+          <h2 class="sec-head">Un espacio donde no tengas que llegar <span class="raya">con todo claro.</span></h2>
+          <div class="prose sec-sub">
+            <p>No trabajo con respuestas prefabricadas ni con fórmulas iguales para todos. Cada persona llega con una historia diferente y, por eso, cada proceso necesita ser construido de manera particular.</p>
+            <p>Mi papel no es decirte cómo debes vivir. Es acompañarte a comprenderte mejor, reconocer tus recursos, ampliar tus posibilidades y desarrollar nuevas formas de relacionarte contigo mismo, con los demás y con las circunstancias de tu vida.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="enfoque-cierre"><div class="cta-band"><span class="eyebrow">Hablemos</span><h2>¿Resuena contigo esta forma de trabajar?</h2><p class="lead">Agendemos una primera conversación y lo vemos juntos.</p><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a><a href="#temas" class="btn btn-ghost" data-route="temas">Ver los temas que trabajo</a></div></div></section>
+  </div>
+
+  <!-- ============ TEMAS ============ -->
+  <div class="page" data-page="temas">
+    <section class="hero-sec wrap rv phero-center" data-seccion="temas-encabezado">
+      <div class="motif" aria-hidden="true">
+        <svg viewBox="0 0 160 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M80,32 L34,84 M80,32 L126,84 M40,92 L120,92" opacity=".55"/>
+          <circle cx="80" cy="26" r="8" fill="var(--mist)"/>
+          <circle cx="30" cy="92" r="8" fill="var(--mist)"/>
+          <circle cx="130" cy="92" r="8" fill="var(--mist)"/>
+        </svg>
+      </div>
+      <span class="eyebrow"><span class="num">02</span> Temas</span>
+      <h1 class="page-h1">Empecemos por lo que <span class="serif"><span class="hl">estás sintiendo.</span></span></h1>
+      <p class="lead page-lead">Puedo acompañarte en procesos relacionados con estrés, ansiedad, adaptación a cambios, crisis vitales y búsqueda de mayor bienestar.</p>
+    </section>
+    <section class="wrap rv" data-seccion="temas-tarjetas">
+      <div class="cards">
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Ansiedad y estrés</h3><span class="arw">&rarr;</span></div><p>Mente acelerada, insomnio, tensión constante. Recuperar calma sin negar lo que sientes.</p></a>
+        <a href="#psilocibina" class="card" data-route="psilocibina"><div class="ch"><h3>Experiencias psicodélicas</h3><span class="arw">&rarr;</span></div><p>Preparación antes de la experiencia e integración de lo vivido después.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Relaciones y vínculos</h3><span class="arw">&rarr;</span></div><p>Pareja, familia, trabajo. Romper patrones que se repiten y comunicar distinto.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Duelo y cambios</h3><span class="arw">&rarr;</span></div><p>Una pérdida, una transición, un cambio que necesita ser comprendido e integrado.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Crecimiento personal</h3><span class="arw">&rarr;</span></div><p>No hay crisis, pero sientes que puedes vivir con más sentido y presencia.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Equipos y empresas</h3><span class="arw">&rarr;</span></div><p>Bienestar, liderazgo consciente y manejo del estrés para organizaciones.</p></a>
+      </div>
+    </section>
+    <section class="wrap rv" data-seccion="temas-cierre"><div class="cta-band"><h2>No tienes que saber ponerle nombre.</h2><p class="lead">Empezamos por donde estás. Agenda una llamada y lo ordenamos juntos.</p><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a></div></div></section>
+  </div>
+
+  <!-- ============ PROCESO ============ -->
+  <div class="page" data-page="proceso">
+    <section class="hero-sec wrap rv" data-seccion="proceso-encabezado">
+      <div class="phero-split">
+        <div>
+          <span class="eyebrow"><span class="num">03</span> El proceso</span>
+          <h1 class="page-h1">Un camino en <span class="hl">tres tiempos.</span></h1>
+          <p class="lead page-lead">Más allá del motivo por el que llegues a consulta, mi propósito es ofrecerte un espacio seguro y respetuoso en el que puedas explorar lo que estás viviendo sin juicios ni respuestas prefabricadas.</p>
+        </div>
+        <figure class="foto foto--retrato foto--kayak phero-foto">
+          <img src="img/liliana-kayak.jpg" alt="Liliana Torres navega en kayak por una laguna turquesa, frente a un nevado" width="1280" height="960" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+    <section class="wrap rv" data-seccion="proceso-pasos">
+      <div class="steps">
+        <div class="step"><div class="n">01</div><h3>Primera conversación</h3><p>Nos conocemos sin compromiso. Me cuentas qué te trae y vemos si es el espacio adecuado para ti.</p><div class="dv"></div></div>
+        <div class="step"><div class="n">02</div><h3>El trabajo</h3><p>Sesiones a tu ritmo. Entendemos los patrones, practicamos presencia y probamos formas nuevas de relacionarte con lo que duele.</p><div class="dv"></div></div>
+        <div class="step"><div class="n">03</div><h3>Integración</h3><p>Consolidamos lo aprendido para que puedas sostenerlo por tu cuenta, con más recursos y más calma.</p><div class="dv"></div></div>
+      </div>
+    </section>
+    <section class="wrap rv" data-seccion="proceso-preguntas">
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <div class="faq">
+        <details><summary>¿Cuánto dura un proceso?<span class="pm">+</span></summary><div class="fa"><p>Depende de ti y de lo que traigas. Cada proceso necesita ser construido de manera particular.</p></div></details>
+        <details><summary>¿Atiendes online?<span class="pm">+</span></summary><div class="fa"><p>Sí. Trabajo presencial y online con la misma cercanía.</p></div></details>
+        <details><summary>¿Acompañas experiencias psicodélicas?<span class="pm">+</span></summary><div class="fa"><p>Ofrezco evaluación, preparación e integración psicoterapéutica. Mi acompañamiento se realiza desde un enfoque de reducción de riesgos, respetando la autonomía de cada persona y sin ofrecer ni facilitar sustancias psicoactivas.</p></div></details>
+        <details><summary>¿Cómo agendo?<span class="pm">+</span></summary><div class="fa"><p>Empezamos por una llamada de 20 minutos, sin costo. Escríbeme y coordinamos.</p></div></details>
+      </div>
+    </section>
+    <section class="wrap rv" data-seccion="proceso-cierre"><div class="cta-band"><h2>El primer paso es una conversación.</h2><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a></div></div></section>
+  </div>
+
+  <!-- ============ MODALIDADES ============ -->
+  <div class="page" data-page="modalidades">
+    <section class="hero-sec wrap rv phero-center" data-seccion="modalidades-encabezado">
+      <div class="motif" aria-hidden="true">
+        <svg viewBox="0 0 160 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18,104 C58,94 100,72 142,28" opacity=".7"/>
+          <path d="M66,76 C60,62 62,52 72,44 C80,56 78,68 66,76 Z"/>
+          <path d="M94,58 C88,44 90,34 100,26 C108,38 106,50 94,58 Z"/>
+        </svg>
+      </div>
+      <span class="eyebrow"><span class="num">04</span> Modalidades</span>
+      <h1 class="page-h1">Cómo podemos <span class="serif"><span class="hl">trabajar juntos.</span></span></h1>
+    </section>
+    <section class="wrap rv" data-seccion="modalidades-tarjetas">
+      <div class="cards">
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Terapia individual</h3><span class="arw">&rarr;</span></div><p>Un espacio propio para tu proceso, con mindfulness y autocompasión como base.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Pareja y familia</h3><span class="arw">&rarr;</span></div><p>Enfoque sistémico: trabajamos el vínculo y los patrones, no la culpa de una sola persona.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Sesiones online</h3><span class="arw">&rarr;</span></div><p>El mismo acompañamiento, desde donde estés, con la misma presencia.</p></a>
+        <a href="#psilocibina" class="card" data-route="psilocibina"><div class="ch"><h3>Experiencias psicodélicas</h3><span class="arw">&rarr;</span></div><p>Evaluación, preparación e integración psicoterapéutica, desde un enfoque de reducción de riesgos y sin ofrecer ni facilitar sustancias psicoactivas.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Empresas y equipos</h3><span class="arw">&rarr;</span></div><p>Talleres y programas de bienestar, liderazgo consciente y manejo del estrés.</p></a>
+        <a href="#agenda" class="card" data-route="agenda"><div class="ch"><h3>Charlas y podcast</h3><span class="arw">&rarr;</span></div><p>Conferencias, entrevistas y colaboraciones sobre salud mental.</p></a>
+      </div>
+      <p class="nota">Las tarifas se conversan en la primera llamada.</p>
+    </section>
+    <section class="wrap rv" data-seccion="modalidades-cierre"><div class="cta-band"><h2>¿Cuál se ajusta a tu momento?</h2><p class="lead">Cuéntame en una llamada y te oriento sin compromiso.</p><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a></div></div></section>
+  </div>
+
+  <!-- ============ BLOG ============ -->
+  <div class="page" data-page="blog">
+    <section class="hero-sec wrap rv phero-center" data-seccion="blog-encabezado">
+      <div class="motif" aria-hidden="true">
+        <svg viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M28,92 C28,50 60,28 92,28 C92,70 60,92 28,92 Z"/>
+          <path d="M28,92 C48,72 66,58 92,28" opacity=".55"/>
+        </svg>
+      </div>
+      <span class="eyebrow">Blog</span>
+      <h1 class="page-h1">Ideas para <span class="serif"><span class="hl">el camino.</span></span></h1>
+      <p class="lead page-lead">Mi deseo es que estas palabras acompañen a quien hoy está sufriendo, pero también a quienes tienen el privilegio y la responsabilidad de cuidar.</p>
+    </section>
+    <section class="wrap rv" data-seccion="blog-grilla"><div class="blog-grid" data-blog-full></div></section>
+    <section class="wrap rv" data-seccion="blog-cierre"><div class="cta-band"><h2>¿Un texto te movió algo?</h2><p class="lead">Eso ya es material para trabajar. Agenda una conversación.</p><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a></div></div></section>
+  </div>
+
+  <!-- ============ ARTICULO ============ -->
+  <div class="page" data-page="articulo">
+    <section class="hero-sec wrap" data-seccion="articulo-plantilla">
+      <article class="article rv">
+        <a href="#blog" class="link volver" data-route="blog"><span class="arw">&larr;</span> Volver al blog</a>
+        <span class="eyebrow" data-art="tag"></span>
+        <h1 data-art="title"></h1>
+        <p class="adek" data-art="dek" hidden></p>
+        <p class="pmeta" data-art="meta"></p>
+        <figure class="foto cover" data-art="cover" hidden><img data-art="img" alt="" decoding="async"></figure>
+        <div class="abody" data-art="body"></div>
+      </article>
+    </section>
+    <section class="wrap rv" data-seccion="articulo-cierre"><div class="cta-band"><span class="eyebrow">Da el paso</span><h2>Si esto te resonó, hablemos.</h2><p class="lead">Una conversación de 20 minutos puede ser el inicio de algo distinto.</p><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a></div></div></section>
+  </div>
+
+  <!-- ============ PSILOCIBINA ============ -->
+  <div class="page" data-page="psilocibina">
+    <section class="hero-sec wrap rv" data-seccion="psilocibina-encabezado">
+      <div class="phero-split">
+        <div>
+          <span class="eyebrow clay">Preparación e integración de experiencias psicodélicas</span>
+          <h1 class="psi-title">Una experiencia intensa no necesariamente se convierte por sí misma <span class="serif"><span class="hl">en un cambio duradero.</span></span></h1>
+          <p class="lead page-lead">La preparación y la integración pueden ofrecer un espacio para acercarse a estas experiencias con mayor conciencia, cuidado y responsabilidad.</p>
+        </div>
+        <div class="motif clay" aria-hidden="true">
+          <svg viewBox="0 0 220 210" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18,150 C30,118 46,182 62,146 C76,114 92,150 108,124 C126,94 158,84 202,84"/>
+            <path d="M18,184 L202,184" opacity=".35"/>
+            <circle cx="62" cy="146" r="7" fill="var(--mist)"/>
+            <circle cx="108" cy="124" r="7" fill="var(--mist)"/>
+            <circle cx="202" cy="84" r="7" fill="var(--mist)"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="psilocibina-que-es">
+      <div class="contrast">
+        <div class="cbox is">
+          <h4>Qué es</h4>
+          <ul>
+            <li>Un acompañamiento psicoterapéutico antes y después de la experiencia.</li>
+            <li>Evaluación, preparación e integración.</li>
+            <li>Un enfoque de reducción de riesgos que respeta tu autonomía.</li>
+            <li>Un espacio para comprender y dar sentido a lo vivido.</li>
+          </ul>
+        </div>
+        <div class="cbox isnot">
+          <h4>Qué no es</h4>
+          <ul>
+            <li>Ofrecer ni facilitar sustancias psicoactivas.</li>
+            <li>Una decisión que tomo por ti.</li>
+            <li>Una promesa de cambio duradero.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="psilocibina-viaje">
+      <span class="eyebrow clay">El viaje</span>
+      <h2 class="sec-head">Tres fases, <span class="raya">un solo objetivo.</span></h2>
+      <div class="journey rv">
+        <div class="jline"><span class="jfill"></span></div>
+        <div class="jsteps">
+          <div class="jstep"><div class="jn">i</div><h3>Evaluación</h3><p>Miramos con honestidad tu momento y tu contexto antes de cualquier decisión.</p></div>
+          <div class="jstep"><div class="jn">ii</div><h3>Preparación</h3><p>Exploramos tus expectativas y tu estado emocional antes de la experiencia.</p></div>
+          <div class="jstep"><div class="jn">iii</div><h3>Integración</h3><p>Conectamos lo que surgió con tu vida cotidiana, tus emociones, tus vínculos, tus valores y tus decisiones.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="psilocibina-preguntas">
+      <span class="eyebrow">Antes de empezar</span>
+      <div class="faq">
+        <details><summary>¿Es seguro?<span class="pm">+</span></summary><div class="fa"><p>Solo dentro de un marco supervisado, con evaluación previa y acompañamiento profesional en las tres fases. Fuera de eso, no lo recomiendo.</p></div></details>
+        <details><summary>¿Es para mí?<span class="pm">+</span></summary><div class="fa"><p>Depende de tu momento y de tu contexto. Por eso todo empieza con una evaluación, y la decisión es tuya.</p></div></details>
+        <details><summary>¿Cuánto dura el proceso?<span class="pm">+</span></summary><div class="fa"><p>No es una sesión, es un proceso de varias semanas. La integración posterior es tan importante como la experiencia misma.</p></div></details>
+      </div>
+    </section>
+
+    <section class="wrap rv" data-seccion="psilocibina-cierre"><div class="cta-band"><span class="eyebrow">Con calma</span><h2>¿Tienes preguntas sobre este camino?</h2><p class="lead">Conversémoslo sin compromiso. La primera llamada es para resolver tus dudas.</p><div class="btn-row"><a href="#agenda" class="btn btn-clay" data-route="agenda">Agenda tu llamada</a></div></div></section>
+  </div>
+
+  <!-- ============ AGENDA ============ -->
+  <div class="page" data-page="agenda">
+    <section class="hero-sec wrap rv" data-seccion="agenda">
+      <div class="split">
+        <div class="col-txt">
+          <span class="eyebrow clay">Agenda</span>
+          <h1 class="page-h1">Empezamos por una <span class="hl">conversación.</span></h1>
+          <p class="lead page-lead">Veinte minutos, sin costo y sin compromiso, para conocernos y ver si soy la persona adecuada para acompañarte.</p>
+          <div class="btn-row agenda-btns">
+            <a class="btn btn-primary" href="https://wa.me/51982007828?text=Hola%20Liliana%2C%20quisiera%20agendar%20una%20primera%20conversaci%C3%B3n." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+            <a class="btn btn-ghost" href="mailto:liliana.plenamente@gmail.com?subject=Primera%20conversaci%C3%B3n">Enviar un correo</a>
+          </div>
+          <dl class="contacto">
+            <div><dt>WhatsApp</dt><dd><a href="https://wa.me/51982007828" target="_blank" rel="noopener">+51 982 007 828</a></dd></div>
+            <div><dt>Correo</dt><dd><a href="mailto:liliana.plenamente@gmail.com">liliana.plenamente@gmail.com</a></dd></div>
+          </dl>
+          <p class="crisis">Si estás atravesando una crisis o sientes que tu vida corre peligro, no esperes a nuestra conversación. Llama gratis a la <a href="tel:113">Línea 113</a> del Minsa, opción 5, disponible las 24 horas, o acude a la emergencia más cercana.</p>
+        </div>
+        <div class="col-img">
+          <figure class="foto foto--cuadrada foto--ventana">
+            <img src="img/liliana-ventana.jpg" alt="Liliana Torres sonríe junto a la ventana abierta de un tren" width="1280" height="960" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="wrap rv" data-seccion="pie">
+    <div class="foot">
+      <div>
+        <div class="fb">Liliana&nbsp;Torres<b>.</b></div>
+        <p>Psicóloga clínica. Terapia sistémica, mindfulness y compasión. Preparación e integración de experiencias psicodélicas.</p>
+      </div>
+      <div>
+        <h5>Explora</h5>
+        <div class="fl">
+          <a href="#enfoque" data-route="enfoque">Enfoque</a><a href="#temas" data-route="temas">Temas</a><a href="#proceso" data-route="proceso">Proceso</a><a href="#psilocibina" data-route="psilocibina">Integración psicodélica</a><a href="#modalidades" data-route="modalidades">Modalidades</a><a href="#blog" data-route="blog">Blog</a>
+        </div>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <div class="fl">
+          <a href="#agenda" data-route="agenda">Agenda una llamada</a><a href="https://wa.me/51982007828" target="_blank" rel="noopener">WhatsApp +51 982 007 828</a><a href="mailto:liliana.plenamente@gmail.com">liliana.plenamente@gmail.com</a>
+        </div>
+      </div>
+      <div class="legal"><span>Lima, Perú</span><span>Si estás en crisis, llama gratis a la <a href="tel:113">Línea 113</a>, opción 5, las 24 horas.</span><span>© Liliana Torres Mora</span></div>
+    </div>
+  </footer>
+</main>
+
+<script>
+  // ---------- Datos del blog ----------
+  var POSTS = [
+    {"slug": "migrar", "tag": "Migración", "title": "Cuando migrar también significa volver a encontrarte contigo", "ex": "He sido expatriada seis veces. Y cuando miro hacia atrás no recuerdo únicamente los países donde viví. Recuerdo las personas que fui en cada uno de ellos.", "min": 6, "foto": "liliana-montana", "alt": "Liliana Torres con su cámara de fotos frente a un nevado de los Andes", "body": "<blockquote>“Mudarse a un nuevo país es mucho más que cambiar de dirección. Es abrir un libro cuyas páginas todavía no han sido escritas. Un libro lleno de incertidumbre, descubrimientos, pérdidas y oportunidades para reinventarnos.”</blockquote><p>Durante muchos años estudié la experiencia migratoria desde la psicología. Sin embargo, antes de comprenderla desde la teoría, la viví en primera persona.</p><p>He sido expatriada seis veces.</p><p>Y cuando miro hacia atrás no recuerdo únicamente los países donde viví. Recuerdo las personas que fui en cada uno de ellos.</p><p>Cada mudanza me obligó a despedirme de una versión de mí para construir otra.</p><p>Porque migrar nunca consiste solamente en aprender una nueva ciudad, un idioma o unas costumbres. Migrar también significa dejar atrás rutinas, vínculos, identidad, proyectos y la sensación de pertenecer a un lugar.</p><p>Eso también es un duelo.</p><p>Y muchas veces ni siquiera sabemos que lo estamos viviendo.</p><h2>La primera vez nunca sabes realmente a qué te enfrentas</h2><p>Nuestra primera expatriación fue hacia Brasil.</p><p>Mi hija tenía siete años y mi hijo apenas un año.</p><p>Recuerdo el miedo.</p><p>Miedo de llegar a un país donde no conocía a nadie, donde no hablaba el idioma y donde todo aquello que me hacía sentir segura quedaba a miles de kilómetros.</p><p>También recuerdo la ilusión.</p><p>Siempre me había gustado descubrir culturas nuevas. Cuando era joven había vivido temporadas en España e Israel, y esa curiosidad seguía viva. Pero esta vez era diferente.</p><p>Ya no solo se trataba de mí.</p><p>Mis decisiones también construirían la infancia de mis hijos.</p><p>Decidimos apostar por la carrera profesional de mi esposo. Creía profundamente en su talento, en su disciplina y en todo lo que podía lograr. Elegí acompañarlo porque entendía que, como familia, ese proyecto también podía convertirse en el nuestro.</p><p>Con el tiempo comprendí que muchas familias toman este tipo de decisiones sin alcanzar a dimensionar todo lo que implican para quien deja atrás su propio camino.</p><p>No es una renuncia.</p><p>Es una transformación.</p><p>Y esa diferencia es importante.</p><h2>El trabajo invisible de quien sostiene el hogar</h2><p>Con frecuencia hablamos del expatriado.</p><p>Pocas veces hablamos de quien sostiene la vida mientras el otro construye su carrera.</p><p>Quiero dedicar unas líneas a esas personas que un día dijeron: “vamos”.</p><p>Porque apoyar un sueño no significa simplemente hacer las maletas.</p><p>Significa convertirse, muchas veces, en el punto de estabilidad emocional de toda la familia.</p><p>En mi caso, mis hijos siempre fueron primero.</p><p>Intentaba que ellos sintieran que todo estaría bien, aunque yo misma estuviera aprendiendo a sostener mis propios miedos.</p><p>Fui quien organizaba la nueva casa, encontraba el colegio, hacía amigos antes que ellos, curaba rodillas, cocinaba, jugaba fútbol cuando todavía no había compañeros de juego, escuchaba nostalgias y celebraba pequeños logros cotidianos.</p><p>Muchas veces repetíamos entre nosotros:</p><p>“Somos nuestra tribu.”</p><p>Y realmente lo éramos.</p><p>Nuestro hogar era el lugar seguro desde donde todos podían salir a explorar el mundo.</p><p>Con el tiempo descubrí algo que rara vez se nombra.</p><p>Quienes sostenemos emocionalmente a otros terminamos acostumbrándonos a parecer fuertes.</p><p>Y los demás también se acostumbran.</p><p>Entonces dejan de preguntar cómo estamos.</p><p>Como si quienes cuidan no necesitaran ser cuidados.</p><h2>Nadie llega solo a la cima</h2><p>Después de tantos años hay algo que tengo claro.</p><p>Nadie construye una carrera solo.</p><p>Detrás de muchos logros profesionales existe alguien cuyo trabajo nunca aparece en un currículo.</p><p>Alguien que sostuvo la casa.</p><p>Que ayudó a los hijos a adaptarse.</p><p>Que escuchó frustraciones.</p><p>Que organizó despedidas.</p><p>Que volvió a empezar una y otra vez.</p><p>Por eso, si hoy eres la persona que salió por la puerta para construir una carrera internacional, quiero invitarte a mirar con más frecuencia a quien camina a tu lado.</p><p>Pregúntale cómo está.</p><p>Anímale a seguir cultivando sus propios sueños.</p><p>Ayúdale a encontrar espacios para sí mismo.</p><p>Reconoce ese trabajo silencioso que sostiene la vida cotidiana.</p><p>Porque nadie llega solo a la cima.</p><h2>La expatriación que más me sorprendió</h2><p>Pensé que la sexta mudanza sería la más sencilla.</p><p>Cuando apareció la posibilidad de venir a Perú recuerdo haber pensado:</p><p>“Ahora será más fácil.”</p><p>Mis hijos ya eran adultos.</p><p>No tendrían que cambiar de colegio.</p><p>No perderían amigos.</p><p>No habría lágrimas infantiles.</p><p>Creía que esta vez la adaptación sería más ligera.</p><p>Me equivoqué.</p><p>Lo que no imaginé era que ahora quien perdía su tribu era yo.</p><p>Durante años mi mundo giró alrededor de ellos.</p><p>Los vi crecer, equivocarse, aprender, encontrar su propio camino.</p><p>Y entonces comprendí que habíamos hecho bien nuestra tarea.</p><p>Les habíamos dado raíces.</p><p>Pero también alas.</p><p>Hoy viven sus propias vidas.</p><p>Y eso me llena de orgullo.</p><p>Al mismo tiempo, extraño profundamente su presencia cotidiana.</p><p>Descubrí que cada etapa de la migración trae pérdidas diferentes.</p><p>Cuando los hijos son pequeños, uno teme por su adaptación.</p><p>Cuando ya son adultos, el duelo consiste en aceptar la distancia de quienes más amas.</p><h2>Después de seis expatriaciones</h2><p>Hoy sigo aprendiendo lo que significa migrar.</p><p>Sigo sintiendo emoción al descubrir lugares nuevos.</p><p>Sigo maravillándome con las personas que encuentro en el camino.</p><p>Pero también he aprendido que ninguna mudanza es fácil.</p><p>Solo cambian las preguntas que la acompañan.</p><p>Hoy siento el deseo de volver a escuchar el acento de mi gente.</p><p>De caminar por calles que no necesito aprender.</p><p>De dejar de vivir entre maletas.</p><p>De echar raíces.</p><p>Quizá porque, después de tantos comienzos, también llega un momento en el que el corazón anhela permanecer.</p><p>Y, sin embargo, sé que, si la vida vuelve a invitarme a reinventarme, encontraré la manera de hacerlo.</p><p>No porque sea fácil.</p><p>Sino porque cada migración me ha enseñado que el verdadero hogar no es un país.</p><p>Es la capacidad de seguir construyéndonos allí donde la vida nos lleve.</p><h2>Una última reflexión</h2><p>Si hoy estás viviendo una migración, quiero decirte algo que a mí me hubiera gustado escuchar hace muchos años.</p><p>No estás solo si a veces sientes nostalgia mientras también agradeces la oportunidad que estás viviendo.</p><p>No estás haciendo nada mal si extrañas profundamente aquello que elegiste dejar.</p><p>Migrar implica ganar muchas cosas, pero también despedirse de otras.</p><p>Y ambas experiencias pueden convivir al mismo tiempo.</p><p>Porque migrar no solo transforma el lugar donde vivimos.</p><p>Transforma, sobre todo, la manera en que aprendemos a habitar nuestra propia vida.</p>"},
+    {"slug": "nunca-es-tarde", "tag": "Familia", "title": "Nunca es tarde para volver a elegir la propia vida", "ex": "Durante muchos años te vi solamente como mi madre. Ese día conocí a la mujer.", "min": 5, "foto": "arbol-laguna-ancho", "alt": "Un árbol viejo de corteza rojiza frente a una laguna turquesa entre montañas", "body": "<p>Encontré esta fotografía mientras recogía las pocas pertenencias de mi madre.</p><p>Había tomado una decisión que muchos consideraban imposible a su edad: no volver al lugar donde había vivido durante los últimos años. Se desprendió de casi todo. Muebles, objetos, recuerdos... Como si entendiera que, para comenzar de nuevo, a veces lo único imprescindible es conservar la esperanza.</p><p>En esa imagen levantabas el rostro hacia el sol.</p><p>No mirabas hacia atrás.</p><p>Parecía que buscabas volver a sentir el calor sobre la piel, una nueva esperanza, un nuevo comienzo. Sonreías con una serenidad que hacía mucho tiempo no veía. Era una sonrisa tranquila, de esas que nacen cuando uno, por fin, siente que está donde quiere estar.</p><p>Al verla comprendí algo que nunca había logrado mirar con tanta claridad.</p><p>Durante muchos años te vi solamente como mi madre.</p><p>Ese día conocí a la mujer.</p><p>A la mujer que había amado profundamente a sus hijos y que, durante tanto tiempo, creyó que amar significaba renunciar a sí misma. La mujer que postergó sus propios sueños mientras cuidaba de los demás. La mujer que también tuvo miedo, que también sintió soledad, que también necesitó ser escuchada.</p><p>Quizá esto solo ocurre cuando dejamos de mirar a nuestros padres desde las necesidades de hijos y empezamos a encontrarnos con ellos como seres humanos.</p><p>Cuando somos niños solemos recordar lo que nos faltó. Pensamos en las palabras que no escuchamos, en los abrazos que hubiéramos querido recibir, en los padres que imaginábamos tener.</p><p>Con los años, si la vida nos lo permite, aparece otra mirada.</p><p>Una mirada más compasiva.</p><p>Hoy logro verte completa.</p><p>Veo a una mujer valiente, sensible, soñadora.</p><p>Y comprendo algo que como psicóloga he visto muchas veces, pero que solo contigo entendí desde el corazón: todos hacemos lo mejor que podemos con los recursos emocionales y el nivel de conciencia que tenemos en cada momento de nuestra vida.</p><p>Recuerdo perfectamente la llamada que cambió todo.</p><p>En tu voz escuché el cansancio de alguien que ya no podía seguir viviendo como lo estaba haciendo.</p><p>Escuché el agotamiento de un cuerpo de casi noventa años.</p><p>La tristeza de la rutina.</p><p>La vulnerabilidad que se siente cuando la independencia se va perdiendo y cada día depende un poco más de que alguien cuide de ti.</p><p>Pero, por encima de todo, escuché algo mucho más fuerte.</p><p>La claridad de una mujer que sabía cómo no quería terminar su vida.</p><p>Al día siguiente tomé un avión.</p><p>No sabía exactamente cómo lo lograríamos, pero tenía la profunda convicción de que haría todo lo posible para ayudarte a cumplir ese último gran sueño: volver a sentir que tu vida todavía te pertenecía.</p><p>Hubo momentos en los que pensé que ya era demasiado tarde.</p><p>En el hospital te vi muy frágil.</p><p>Tu cuerpo estaba exhausto y todos pensábamos que quizá no saldrías de allí.</p><p>Sin embargo, mientras los demás hablábamos de enfermedades, tratamientos y pronósticos, tú solo repetías una frase:</p><p>“Llama a confirmar mi habitación con vista a la montaña. Esa es la que quiero.”</p><p>Nunca olvidaré ese momento.</p><p>Todos nos mirábamos con incredulidad.</p><p>Yo, en cambio, sentí que aquella frase hablaba de algo mucho más profundo que una habitación.</p><p>Era tu manera de decirnos:</p><p>“Todavía no he terminado de vivir.”</p><p>Y así fue.</p><p>Llegaste a tu nuevo hogar.</p><p>Con apenas un par de maletas.</p><p>Habías soltado casi todas tus pertenencias, pero no habías soltado las ganas de vivir de una manera diferente.</p><p>Fueron semanas intensas.</p><p>Te acompañé cada día.</p><p>Intenté cuidar cada detalle para que te sintieras segura, tranquila, respetada.</p><p>Pero, al final, fui yo quien recibió el regalo más grande.</p><p>Porque tú me enseñaste que nunca es tarde para cambiar el rumbo.</p><p>Que mientras exista un poco de vida, también existe la posibilidad de elegir.</p><p>Aunque el cuerpo esté cansado.</p><p>Aunque la memoria falle.</p><p>Aunque el alma haya conocido la tristeza.</p><p>Siempre puede existir un nuevo comienzo.</p><p>También comprendí algo que me dolió aceptar.</p><p>A veces quienes más amamos también podemos convertirnos, sin querer, en quienes limitan la libertad del otro.</p><p>Por miedo.</p><p>Por creer que sabemos qué es lo mejor.</p><p>Por aferrarnos a una idea de protección que, sin darnos cuenta, puede terminar alejando a la persona de la vida que realmente desea.</p><p>Cuidar también significa escuchar.</p><p>Respetar.</p><p>Acompañar incluso cuando el camino elegido no coincide con el nuestro.</p><p>Hoy, cuando te veo cerca de cumplir noventa años, vuelvo a encontrar en tu rostro esa sonrisa de la fotografía.</p><p>Descubro a una mujer que ha recuperado la ilusión.</p><p>Que vuelve a disfrutar de las pequeñas cosas.</p><p>Que vuelve a sentir curiosidad por la vida.</p><p>Y comprendo que el verdadero envejecimiento no ocurre cuando el cuerpo pierde fuerza.</p><p>Ocurre cuando dejamos de creer que todavía podemos elegir.</p><p>Gracias, mamá.</p><p>Por recordarme que nunca es demasiado tarde para empezar de nuevo.</p><p>Y perdón por no haber sabido escucharte antes.</p><p>Hoy vuelves a levantar el rostro hacia el cielo.</p><p>Y vuelves a sonreír.</p><p>Ojalá todos podamos conservar esa valentía cuando llegue el momento de escribir el último capítulo de nuestra propia historia.</p><blockquote>“Si hoy estás leyendo estas palabras porque sientes que la vida ya pasó para ti, o porque acompañas a un padre o una madre en esta etapa, quizá esta historia quiera recordarte algo sencillo pero profundamente humano: la necesidad de ser vistos, escuchados y respetados no desaparece con la edad. Mientras haya vida, también hay posibilidad de elegir, de reconciliarnos con nosotros mismos y de comenzar de nuevo.”</blockquote>"},
+    {"slug": "del-otro-lado-de-la-ventana", "tag": "Enfermedad y cuidado", "title": "Del otro lado de la ventana", "dek": "Reflexiones sobre la fragilidad humana, el cuidado y la esperanza", "ex": "Hay heridas que cierran sobre la piel. Y hay otras que permanecen silenciosamente en la memoria del cuerpo.", "min": 7, "body": "<p>Durante más de veinte años he acompañado a personas en sus procesos de dolor, pérdida, enfermedad y transformación. Como psicóloga, he tenido el privilegio de sostener a otros en algunos de los momentos más difíciles de sus vidas.</p><p>Pero la vida, con su manera inesperada de enseñar, me llevó también al otro lado.</p><p>Al lado de quien espera un diagnóstico.<br>Del miedo antes de una cirugía.<br>Del cuerpo que deja de responder.<br>De las noches interminables en un hospital.<br>Del dolor que parece no terminar.<br>Y de la inmensa necesidad de ser sostenida por otros.</p><p>Este espacio nace precisamente desde ese lugar.</p><p>No escribo como alguien que tiene respuestas para todo. Escribo como una mujer, una psicóloga y una paciente que descubrió que, cuando la vida nos pone frente a nuestra fragilidad, todos nos parecemos mucho más de lo que imaginamos.</p><p>Aquí encontrarás reflexiones sobre la enfermedad, el cuidado, el trauma, la esperanza, la compasión y esa extraordinaria capacidad humana de volver a levantarnos cuando pensamos que ya no podremos hacerlo.</p><p>Mi deseo es que estas palabras acompañen a quien hoy está sufriendo, pero también a quienes tienen el privilegio y la responsabilidad de cuidar.</p><p>Porque todos, tarde o temprano, estaremos en alguno de esos dos lugares.</p><p>Y muchas veces, en ambos.</p><h2>Cuando el cuerpo recuerda</h2><p class=“dek”>Lo que una paciente y una psicóloga aprendieron sobre el trauma médico, la memoria del cuerpo y el poder del cuidado humano.</p><h3>Introducción</h3><p>Hay heridas que cierran sobre la piel.</p><p>Y hay otras que permanecen silenciosamente en la memoria del cuerpo.</p><p>Durante muchos años escuché historias de personas que habían vivido enfermedades, accidentes, pérdidas y experiencias profundamente traumáticas. Como psicóloga, las acompañé a reconstruir la confianza en sí mismas y en la vida. Creía comprender lo que significaba atravesar una experiencia que transformara la relación con el propio cuerpo.</p><p>Hasta que un día me tocó vivirla.</p><p>Lo que comenzó como una cirugía programada terminó convirtiéndose en una hospitalización de cuarenta días, múltiples complicaciones médicas y una experiencia que cambió profundamente mi forma de entender el sufrimiento, el miedo y el cuidado.</p><p>Escribo estas líneas desde un profundo agradecimiento. Gracias al conocimiento, la dedicación y las decisiones de muchos profesionales de la salud hoy sigo viva. Nunca olvidaré que hubo personas que lucharon por salvar mi vida cuando yo ya no tenía fuerzas para hacerlo.</p><p>Precisamente por ese agradecimiento nace este relato.</p><p>No pretende juzgar decisiones clínicas ni cuestionar procedimientos que fueron necesarios. Busca poner palabras a una dimensión de la atención sanitaria que pocas veces alcanza a ser visible: la experiencia emocional del paciente.</p><p>Cuando una persona entra a un quirófano, no entrega únicamente su cuerpo. También entrega su confianza, su vulnerabilidad, sus miedos y, muchas veces, la sensación de control sobre su propia vida.</p><p>Mientras el equipo médico trabaja para preservar la vida, el paciente está viviendo una experiencia que también quedará grabada en su sistema nervioso, en su memoria y en la forma como volverá a relacionarse con el mundo.</p><p>Este relato nace con la esperanza de tender un puente entre esos dos universos.</p><p>Como psicóloga, deseo aportar una mirada sobre el trauma y la memoria del cuerpo.</p><p>Como paciente, quiero prestar mi voz a quienes alguna vez sintieron que no encontraban palabras para explicar lo que vivieron durante una hospitalización.</p><p>Y como ser humano, deseo recordar algo que a veces olvidamos: detrás de cada monitor, cada procedimiento y cada historia clínica, hay una persona que necesita sentirse vista, escuchada y profundamente acompañada.</p><p>Si estas palabras ayudan a que un paciente se sienta comprendido, o a que un profesional haga una pausa de unos segundos para mirar a alguien a los ojos y decirle “estoy aquí contigo”, entonces todo lo vivido habrá encontrado un nuevo sentido.</p><h3>Carta a quienes cuidan</h3><p>Hay momentos en la vida en los que dejamos de ser fuertes.</p><p>Momentos en los que el cuerpo ya no responde como antes, la mente se llena de incertidumbre y el futuro deja de ser una certeza para convertirse apenas en un deseo.</p><p>En esos momentos, inevitablemente, nuestra vida queda en manos de otros.</p><p>Quizá tú eres una de esas personas.</p><p>Tal vez llevas una bata blanca, un uniforme, un carné de identificación o simplemente eres un hijo, una madre, una pareja o un amigo que acompaña.</p><p>Sea cual sea tu lugar, hoy quiero darte las gracias.</p><p>Porque cuidar a otro no consiste únicamente en administrar un medicamento, realizar un procedimiento, vigilar un monitor o preparar una comida. Cuidar es algo mucho más profundo.</p><p>Es entrar, por un instante, en el territorio más vulnerable de otro ser humano.</p><p>Es acompañar a alguien que siente miedo, aunque no siempre pueda decirlo.</p><p>Es permanecer cuando el dolor hace que las palabras desaparezcan.</p><p>Es recordar la humanidad del otro justo cuando esa persona siente que la está perdiendo.</p><p>Durante mi hospitalización comprendí algo que jamás había entendido con tanta claridad.</p><p>Cuando enfermamos, no solo se rompe el cuerpo.</p><p>También se rompe la sensación de seguridad.</p><p>Se rompe la autonomía.</p><p>Se rompe la confianza en que podremos controlar lo que ocurre.</p><p>Y, a veces, también se rompe una parte de nuestra identidad.</p><p>Hay días en los que el paciente deja de sentirse una persona para convertirse en un diagnóstico, una cama, una historia clínica o un procedimiento pendiente.</p><p>Pero quiero decirte algo que quizás, en medio del ritmo acelerado de cuidar, pueda olvidarse.</p><p>Aunque el paciente no hable...</p><p>Aunque esté sedado...</p><p>Aunque parezca confundido...</p><p>Aunque no recuerde con exactitud lo que ocurrió...</p><p>Su cuerpo sí recuerda.</p><p>Recuerda la voz que transmitía calma.</p><p>La mano que sostuvo la suya.</p><p>La mirada que lo hizo sentirse visto.</p><p>La persona que dijo su nombre.</p><p>La explicación que disminuyó el miedo.</p><p>El silencio respetuoso.</p><p>Y también recuerda aquello que dolió.</p><p>Por eso nunca subestimes el poder de unos pocos segundos de presencia.</p><p>A veces una frase tan sencilla como:</p><p>“Estoy aquí contigo.”</p><p>puede convertirse en el lugar seguro que una persona recordará durante toda su vida.</p><p>Hoy escribo estas palabras desde un lugar que nunca imaginé habitar.</p><p>Durante muchos años acompañé a personas desde mi consulta como psicóloga. Creía comprender el sufrimiento.</p><p>Hasta que la vida me invitó a conocerlo desde la cama de un hospital.</p><p>Necesité que me sostuvieran.</p><p>Necesité que alguien me ayudara a creer que iba a salir adelante cuando yo ya no podía hacerlo.</p><p>Necesité que otros confiaran por mí.</p><p>Y descubrí que dejarse cuidar también requiere una enorme valentía.</p><p>Desde entonces miro el cuidado de una manera diferente.</p><p>Ya no pienso únicamente en aliviar el dolor.</p><p>Pienso en preservar la dignidad.</p><p>En cuidar la esperanza.</p><p>En proteger la confianza.</p><p>En recordar que cada ser humano necesita sentirse visto antes que tratado.</p><p>Quizá nunca llegues a saber cuánto significado tuvo para alguien una palabra tuya.</p><p>Quizá nunca vuelvas a ver a esa persona que acompañaste durante unos días.</p><p>Pero quiero que sepas algo.</p><p>Cada gesto de presencia, cada acto de respeto y cada expresión genuina de compasión dejan una huella.</p><p>A veces esa huella ayuda a sanar mucho más que el cuerpo.</p><p>Porque las personas solemos olvidar muchas cosas.</p><p>Olvidamos fechas.</p><p>Olvidamos conversaciones.</p><p>Olvidamos detalles.</p><p>Pero rara vez olvidamos cómo nos hicieron sentir cuando estábamos más vulnerables.</p><p>Gracias por seguir eligiendo cuidar.</p><p>Gracias por sostener la vida cuando otros ya no pueden sostenerse solos.</p><p>Y cuando el cansancio, la rutina o el peso de la responsabilidad hagan que todo parezca demasiado, recuerda que, al otro lado de cada bata, de cada uniforme o de cada rol de cuidador, siempre habrá un ser humano buscando una sola cosa:</p><p>Sentirse seguro.</p><p>Sentirse digno.</p><p>Sentirse acompañado.</p><p>Porque, tarde o temprano, todos estaremos allí.</p><p>Todos necesitaremos que alguien nos sostenga.</p><p>Y ojalá, cuando ese día llegue, encontremos a alguien que no solo sepa cuidar nuestro cuerpo, sino que también recuerde cuidar nuestra humanidad.</p><hr><p class=“firma”>Con profunda gratitud,</p><p class=“firma”>Liliana Torres Mora<br>Psicóloga, paciente y, sobre todo, una mujer que descubrió que dejarse cuidar también es una forma de valentía.</p>"},
+    {"slug": "desde-aqui", "tag": "Escritos cortos", "title": "Desde aquí", "ex": "Hoy ya no miro la vida detrás de un vidrio. Hoy la habito.", "min": 1, "foto": "liliana-ventana", "alt": "Liliana Torres sonríe junto a la ventana abierta de un tren", "body": "<p>Hoy ya no miro la vida detrás de un vidrio. Hoy la habito.<br>Con un cuerpo que aún se está recuperando y un corazón que aprendió algo esencial: estar aquí no es poca cosa.</p><p>Así que si hoy puedes, corre. Si no, camina. Y si no, simplemente respira.<br>La vida no se mide por la fuerza, sino por el milagro de seguir estando.</p><p>Yo hoy estoy.<br>Y eso basta.</p><h2>Estoy aquí</h2><p>Salir de casa sin saber si volverás cambia la forma de mirar la vida.<br>Desde una ventana vi al mundo seguir: gente corriendo, riendo, respirando sin darse cuenta del milagro que eso es. Yo estaba viva, pero con dolor. Mucho dolor.</p><p>Aprendí que el dolor te lleva al borde, a un lugar donde no puedes escapar ni descansar. Y aun así, algo —Alguien— te sostiene cuando ya no puedes más, incluso cuando crees que estás completamente sola.</p><p>Hoy ya no hay vidrio. Hoy estoy del otro lado.<br>Y solo por eso, hoy vale la pena correr, soñar y agradecer.<br>Estar aquí… ya es suficiente.</p>"}
+  ];
+
+  function blogCardHTML(p){
+    return '<a class="post" href="#articulo/'+p.slug+'" data-open="'+p.slug+'">'
+      +'<div class="pbody"><span class="ptag">'+p.tag+'</span><h3>'+p.title+'</h3>'
+      +'<p class="pex">'+p.ex+'</p><span class="pmeta">'+p.min+' min de lectura</span></div></a>';
+  }
+  function renderBlog(){
+    var full=document.querySelector('[data-blog-full]');
+    var prev=document.querySelector('[data-blog-preview]');
+    if(full) full.innerHTML=POSTS.map(blogCardHTML).join('');
+    if(prev) prev.innerHTML=POSTS.slice(0,3).map(blogCardHTML).join('');
+  }
+  // Cada artículo tiene su propio link, #articulo/<slug>; si el slug no existe, se muestra el blog
+  function openArticle(slug, fromHistory){
+    var p=POSTS.find(function(x){return x.slug===slug;}); if(!p){ go('blog', fromHistory); return; }
+    var q=function(s){return document.querySelector('[data-art="'+s+'"]');};
+    q('tag').textContent=p.tag; q('title').textContent=p.title;
+    q('meta').textContent='Liliana Torres Mora · '+p.min+' min de lectura';
+    q('dek').textContent=p.dek||''; q('dek').hidden=!p.dek;
+    var cov=q('cover'), img=q('img');
+    if(p.foto){ cov.className='foto cover foto--'+p.foto; img.src='img/'+p.foto+'.jpg'; img.alt=p.alt||''; cov.hidden=false; }
+    else { cov.hidden=true; img.removeAttribute('src'); img.alt=''; }
+    q('body').innerHTML=p.body;
+    go('articulo', fromHistory, 'articulo/'+p.slug);
+  }
+
+  // ---------- Router ----------
+  var PAGES=["inicio","enfoque","temas","proceso","psilocibina","modalidades","blog","articulo","agenda"];
+  // Título de la pestaña por página; en un artículo se usa su propio título
+  var SITE_TITLE="Liliana Torres · Psicóloga clínica en Lima";
+  var PAGE_TITLES={enfoque:"Enfoque", temas:"Temas", proceso:"Proceso", psilocibina:"Integración psicodélica", modalidades:"Modalidades", blog:"Blog", agenda:"Agenda"};
+  // fromHistory: true cuando la página llega desde la URL (carga, botón atrás o adelante); ahí no se suma historial
+  // hashPath: lo que va en la URL cuando no es solo el nombre de la página (por ejemplo articulo/<slug>)
+  function go(page, fromHistory, hashPath){
+    if(PAGES.indexOf(page)<0) page="inicio";
+    if(page==='articulo' && !hashPath) page='blog';
+    var target='#'+(hashPath||page);
+    var pageTitle = page==='articulo' ? document.querySelector('[data-art="title"]').textContent : PAGE_TITLES[page];
+    document.title = pageTitle ? pageTitle+' · Liliana Torres' : SITE_TITLE;
+    document.querySelectorAll('.page').forEach(function(el){ el.classList.toggle('on', el.dataset.page===page); });
+    document.querySelectorAll('.nav a[data-route], .nav-panel a[data-route]').forEach(function(a){ a.classList.toggle('active', a.dataset.route===page || (page==='articulo' && a.dataset.route==='blog')); });
+    setMenu(false);
+    window.scrollTo(0,0);
+    ['.ci-content','.ci-bottom','.ci-bg svg','.ci-bg .sun'].forEach(function(s){ var el=document.querySelector('[data-page="inicio"] '+s); if(el){ el.style.transform=''; el.style.opacity=''; } });
+    if(location.hash!==target){
+      if(fromHistory) history.replaceState(null,'',target);
+      else history.pushState(null,'',target);
+    }
+    revealNow();
+  }
+  function route(){
+    var h=decodeURIComponent((location.hash||'#inicio').slice(1));
+    if(h.indexOf('articulo/')===0){ openArticle(h.slice(9), true); return; }
+    go(h, true);
+  }
+
+  // ---------- Reveal ----------
+  var io;
+  function setupIO(){
+    if(!('IntersectionObserver' in window)) return null;
+    return new IntersectionObserver(function(en){ en.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); },{threshold:.1, rootMargin:"0px 0px -40px 0px"});
+  }
+  function revealNow(){
+    var active=document.querySelector('.page.on');
+    if(!active) return;
+    var els=active.querySelectorAll('.rv');
+    if(!io){ els.forEach(function(e){e.classList.add('in');}); return; }
+    els.forEach(function(e){ e.classList.remove('in'); io.observe(e); });
+    // ensure above-the-fold shows immediately
+    requestAnimationFrame(function(){ els.forEach(function(e){ var r=e.getBoundingClientRect(); if(r.top<window.innerHeight*.92) e.classList.add('in'); }); });
+  }
+
+  // ---------- Modo claro u oscuro ----------
+  var root=document.documentElement;
+  function setTheme(t){ if(t) root.setAttribute('data-theme',t); }
+
+  // ---------- Wire up ----------
+  document.addEventListener('click', function(e){
+    var r=e.target.closest('[data-route]'); if(r){ e.preventDefault(); go(r.dataset.route); return; }
+    var o=e.target.closest('[data-open]'); if(o){ e.preventDefault(); openArticle(o.dataset.open); return; }
+    var cy=e.target.closest('[data-cycle-toggle]'); if(cy){ toggleCycle(cy); return; }
+    var mb=e.target.closest('#menuBtn'); if(mb){ setMenu(navPanel.hidden); return; }
+    var tb=e.target.closest('#themeBtn'); if(tb){ var cur=root.getAttribute('data-theme'); if(!cur){ cur=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'; } setTheme(cur==='dark'?'light':'dark'); return; }
+    if(navPanel && !navPanel.hidden && !e.target.closest('#navPanel')) setMenu(false);
+  });
+  window.addEventListener('hashchange', route);
+
+  // ---------- Menú en pantallas chicas ----------
+  var menuBtn=document.getElementById('menuBtn'), navPanel=document.getElementById('navPanel');
+  function setMenu(open){
+    if(!navPanel || !menuBtn) return;
+    navPanel.hidden=!open;
+    menuBtn.setAttribute('aria-expanded', String(open));
+    if(open){ var first=navPanel.querySelector('a'); if(first) first.focus(); }
+  }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && navPanel && !navPanel.hidden){ setMenu(false); menuBtn.focus(); } });
+
+  // ---------- Ciclo de Enfoque: el patrón que se repite ----------
+  function toggleCycle(btn){
+    var c=document.getElementById('cycle'); if(!c) return;
+    var broken=c.classList.toggle('broken');
+    var ct=document.getElementById('cycleCenter');
+    if(ct) ct.textContent = broken ? "Empiezan a aparecer nuevas posibilidades." : "Un patrón que se repite de manera automática.";
+    if(btn) btn.textContent = broken ? "Ver el patrón de nuevo" : "Mirar tu historia con claridad";
+  }
+
+  // ---------- Parallax de la portada ----------
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function parallax(){
+    if(reduce) return;
+    var page=document.querySelector('.page.on'); if(!page || page.dataset.page!=='inicio') return;
+    var y=window.scrollY||window.pageYOffset;
+    if(y>window.innerHeight+300) return;
+    var svg=page.querySelector('.ci-bg svg'), sun=page.querySelector('.ci-bg .sun'), content=page.querySelector('.ci-content'), bottom=page.querySelector('.ci-bottom');
+    if(svg) svg.style.transform='translate3d(0,'+(y*0.28)+'px,0)';
+    if(sun) sun.style.transform='translate3d(0,'+(y*0.14)+'px,0)';
+    if(content){ content.style.transform='translate3d(0,'+(y*0.42)+'px,0)'; content.style.opacity=String(Math.max(0,1-y/(window.innerHeight*0.72))); }
+    if(bottom) bottom.style.opacity=String(Math.max(0,1-y/280));
+  }
+  var ticking=false;
+  window.addEventListener('scroll', function(){ if(!ticking){ requestAnimationFrame(function(){ parallax(); ticking=false; }); ticking=true; } }, {passive:true});
+
+  if(!root.getAttribute('data-theme')) setTheme('light'); // claro por defecto
+  io=setupIO();
+  renderBlog();
+  route();
+</script>
+
+</body></html>
